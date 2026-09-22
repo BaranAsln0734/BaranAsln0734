@@ -1,87 +1,82 @@
-<svg width="1200" height="520" viewBox="0 0 1200 520"
-     fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg
+  width="1200"
+  height="520"
+  viewBox="0 0 1200 520"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>Veli Baran Aslan — Software Developer</title>
+  <desc>
+    Futuristic 3D wireframe globe representing software systems,
+    APIs, data and global connectivity.
+  </desc>
 
   <defs>
 
-    <!-- BACKGROUND -->
+    <!-- Background -->
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520">
-      <stop offset="0" stop-color="#050509"/>
-      <stop offset="0.5" stop-color="#090914"/>
-      <stop offset="1" stop-color="#050507"/>
+      <stop offset="0%" stop-color="#030509"/>
+      <stop offset="48%" stop-color="#080B14"/>
+      <stop offset="100%" stop-color="#030408"/>
     </linearGradient>
 
-    <!-- GRID -->
-    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#8B5CF6" stop-opacity=".12"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity=".25"/>
-    </linearGradient>
-
-    <!-- CYAN -->
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#67E8F9"/>
-      <stop offset=".5" stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#0891B2"/>
-    </linearGradient>
-
-    <!-- PURPLE -->
-    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#C084FC"/>
-      <stop offset=".5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#6366F1"/>
-    </linearGradient>
-
-    <!-- CORE -->
-    <radialGradient id="core">
-      <stop offset="0" stop-color="#E0F2FE" stop-opacity=".95"/>
-      <stop offset=".15" stop-color="#67E8F9" stop-opacity=".8"/>
-      <stop offset=".42" stop-color="#8B5CF6" stop-opacity=".45"/>
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    <!-- Globe gradients -->
+    <radialGradient id="globeCore" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#13283A" stop-opacity=".72"/>
+      <stop offset="45%" stop-color="#07131E" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#02060A" stop-opacity=".08"/>
     </radialGradient>
 
-    <!-- GLASS -->
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".09"/>
-      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".025"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity=".06"/>
+    <linearGradient id="globeLine" x1="260" y1="120" x2="650" y2="420">
+      <stop offset="0%" stop-color="#73E8FF"/>
+      <stop offset="48%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
 
-    <!-- GLOWS -->
-    <filter id="glowCyan" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <linearGradient id="orbit" x1="260" y1="200" x2="700" y2="360">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".05"/>
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".08"/>
+    </linearGradient>
+
+    <linearGradient id="packet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Soft glows -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="glowPurple" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
 
-    <filter id="bigGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="35"/>
-    </filter>
-
-    <!-- CLIP -->
-    <clipPath id="canvas">
-      <rect width="1200" height="520" rx="28"/>
+    <!-- Globe clipping -->
+    <clipPath id="globeClip">
+      <circle cx="770" cy="260" r="178"/>
     </clipPath>
 
-    <!-- MASK -->
-    <radialGradient id="fade">
-      <stop offset="0" stop-color="white"/>
-      <stop offset=".72" stop-color="white"/>
-      <stop offset="1" stop-color="black"/>
-    </radialGradient>
-
-    <mask id="edgeFade">
-      <rect width="1200" height="520" fill="url(#fade)"/>
-    </mask>
+    <!-- Grid -->
+    <pattern
+      id="grid"
+      width="42"
+      height="42"
+      patternUnits="userSpaceOnUse"
+    >
+      <path
+        d="M42 0H0V42"
+        stroke="#FFFFFF"
+        stroke-opacity=".035"
+        stroke-width="1"
+      />
+    </pattern>
 
   </defs>
 
@@ -89,524 +84,715 @@
   <!-- BACKGROUND -->
   <!-- ====================================================== -->
 
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
-
-  <g clip-path="url(#canvas)" mask="url(#edgeFade)">
-
-    <!-- atmospheric glows -->
-
-    <circle cx="890" cy="230" r="170"
-            fill="#7C3AED"
-            opacity=".08"
-            filter="url(#bigGlow)"/>
-
-    <circle cx="780" cy="250" r="130"
-            fill="#06B6D4"
-            opacity=".07"
-            filter="url(#bigGlow)"/>
-
-    <!-- ================================================== -->
-    <!-- PERSPECTIVE GRID -->
-    <!-- ================================================== -->
-
-    <g opacity=".45">
-
-      <!-- horizontal perspective lines -->
-
-      <path d="M420 330 H1200"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M390 350 H1200"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M350 375 H1200"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M300 405 H1200"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M240 440 H1200"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M150 485 H1200"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <!-- vertical perspective lines -->
-
-      <path d="M470 320 L300 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M540 320 L455 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M610 320 L570 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M680 320 L680 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M750 320 L790 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M820 320 L900 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M890 320 L1040 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-      <path d="M960 320 L1180 520"
-            stroke="url(#gridFade)"
-            stroke-width="1"/>
-
-    </g>
-
-    <!-- ================================================== -->
-    <!-- FLOATING PARTICLES -->
-    <!-- ================================================== -->
-
-    <g>
-
-      <circle cx="710" cy="90" r="2" fill="#67E8F9">
-        <animate attributeName="cy"
-                 values="90;70;90"
-                 dur="5s"
-                 repeatCount="indefinite"/>
-        <animate attributeName="opacity"
-                 values=".2;.9;.2"
-                 dur="5s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1020" cy="130" r="2" fill="#A78BFA">
-        <animate attributeName="cy"
-                 values="130;155;130"
-                 dur="6s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1090" cy="290" r="1.5" fill="#22D3EE">
-        <animate attributeName="cx"
-                 values="1090;1070;1090"
-                 dur="4s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="640" cy="150" r="1.5" fill="#C084FC">
-        <animate attributeName="cy"
-                 values="150;170;150"
-                 dur="7s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-    </g>
-
-    <!-- ================================================== -->
-    <!-- MAIN 3D CORE -->
-    <!-- ================================================== -->
-
-    <g transform="translate(820 235)">
-
-      <!-- aura -->
-
-      <circle r="115"
-              fill="url(#core)"
-              opacity=".25">
-        <animate attributeName="r"
-                 values="105;125;105"
-                 dur="6s"
-                 repeatCount="indefinite"/>
-        <animate attributeName="opacity"
-                 values=".18;.32;.18"
-                 dur="6s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-      <!-- rotating outer orbit -->
-
-      <ellipse rx="150" ry="55"
-               transform="rotate(-18)"
-               stroke="url(#purple)"
-               stroke-width="1"
-               stroke-opacity=".5">
-
-        <animateTransform
-          attributeName="transform"
-          type="rotate"
-          from="-18 0 0"
-          to="342 0 0"
-          dur="18s"
-          repeatCount="indefinite"/>
-
-      </ellipse>
-
-      <ellipse rx="145" ry="48"
-               transform="rotate(55)"
-               stroke="url(#cyan)"
-               stroke-width="1"
-               stroke-opacity=".45">
-
-        <animateTransform
-          attributeName="transform"
-          type="rotate"
-          from="55 0 0"
-          to="415 0 0"
-          dur="14s"
-          repeatCount="indefinite"/>
-
-      </ellipse>
-
-      <!-- wireframe sphere -->
-
-      <g opacity=".9">
-
-        <ellipse rx="88" ry="88"
-                 stroke="url(#cyan)"
-                 stroke-width="1.5"
-                 stroke-opacity=".65"/>
-
-        <ellipse rx="88" ry="40"
-                 stroke="url(#purple)"
-                 stroke-width="1.2"
-                 stroke-opacity=".7"/>
-
-        <ellipse rx="88" ry="18"
-                 stroke="url(#cyan)"
-                 stroke-width="1"
-                 stroke-opacity=".5"/>
-
-        <ellipse rx="40" ry="88"
-                 stroke="url(#purple)"
-                 stroke-width="1.2"
-                 stroke-opacity=".6"
-                 transform="rotate(25)"/>
-
-        <ellipse rx="18" ry="88"
-                 stroke="url(#cyan)"
-                 stroke-width="1"
-                 stroke-opacity=".45"
-                 transform="rotate(25)"/>
-
-      </g>
-
-      <!-- core -->
-
-      <circle r="34"
-              fill="url(#core)"
-              opacity=".9"
-              filter="url(#glowPurple)">
-        <animate attributeName="r"
-                 values="30;38;30"
-                 dur="4s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-      <circle r="8"
-              fill="#E0F2FE"
-              filter="url(#glowCyan)">
-        <animate attributeName="r"
-                 values="6;10;6"
-                 dur="3s"
-                 repeatCount="indefinite"/>
-      </circle>
-
-      <!-- orbiting nodes -->
-
-      <g>
-
-        <circle cx="150" cy="0" r="5"
-                fill="#67E8F9"
-                filter="url(#glowCyan)">
-
-          <animateTransform
-            attributeName="transform"
-            type="rotate"
-            from="0"
-            to="360"
-            dur="10s"
-            repeatCount="indefinite"/>
-
-        </circle>
-
-        <circle cx="-145" cy="0" r="4"
-                fill="#A78BFA"
-                filter="url(#glowPurple)">
-
-          <animateTransform
-            attributeName="transform"
-            type="rotate"
-            from="180"
-            to="-180"
-            dur="13s"
-            repeatCount="indefinite"/>
-
-        </circle>
-
-      </g>
-
-    </g>
-
-    <!-- ================================================== -->
-    <!-- DATA FLOW LINES -->
-    <!-- ================================================== -->
-
-    <g stroke-linecap="round">
-
-      <path d="M580 180 C650 180 690 210 750 225"
-            stroke="#22D3EE"
-            stroke-opacity=".22"
-            stroke-width="1"/>
-
-      <path d="M590 280 C670 280 700 250 750 245"
-            stroke="#8B5CF6"
-            stroke-opacity=".22"
-            stroke-width="1"/>
-
-      <path d="M900 235 C950 210 990 190 1060 190"
-            stroke="#22D3EE"
-            stroke-opacity=".22"
-            stroke-width="1"/>
-
-      <!-- animated packets -->
-
-      <circle r="3" fill="#67E8F9" filter="url(#glowCyan)">
-        <animateMotion
-          path="M580 180 C650 180 690 210 750 225"
-          dur="3s"
-          repeatCount="indefinite"/>
-      </circle>
-
-      <circle r="3" fill="#A78BFA" filter="url(#glowPurple)">
-        <animateMotion
-          path="M590 280 C670 280 700 250 750 245"
-          dur="4s"
-          repeatCount="indefinite"/>
-      </circle>
-
-      <circle r="3" fill="#67E8F9" filter="url(#glowCyan)">
-        <animateMotion
-          path="M900 235 C950 210 990 190 1060 190"
-          dur="3.5s"
-          repeatCount="indefinite"/>
-      </circle>
-
-    </g>
-
-    <!-- ================================================== -->
-    <!-- ARCHITECTURE LABELS -->
-    <!-- ================================================== -->
-
-    <g font-family="Inter, Arial, sans-serif">
-
-      <!-- frontend -->
-
-      <g transform="translate(520 145)">
-
-        <rect width="120" height="46" rx="12"
-              fill="url(#glass)"
-              stroke="#67E8F9"
-              stroke-opacity=".22"/>
-
-        <circle cx="18" cy="23" r="4"
-                fill="#22D3EE"
-                filter="url(#glowCyan)"/>
-
-        <text x="31" y="20"
-              fill="#E5E7EB"
-              font-size="11"
-              font-weight="600">
-          FRONTEND
-        </text>
-
-        <text x="31" y="34"
-              fill="#64748B"
-              font-size="8">
-          React · Next.js
-        </text>
-
-      </g>
-
-      <!-- backend -->
-
-      <g transform="translate(520 265)">
-
-        <rect width="120" height="46" rx="12"
-              fill="url(#glass)"
-              stroke="#A78BFA"
-              stroke-opacity=".22"/>
-
-        <circle cx="18" cy="23" r="4"
-                fill="#8B5CF6"
-                filter="url(#glowPurple)"/>
-
-        <text x="31" y="20"
-              fill="#E5E7EB"
-              font-size="11"
-              font-weight="600">
-          BACKEND
-        </text>
-
-        <text x="31" y="34"
-              fill="#64748B"
-              font-size="8">
-          Node · APIs
-        </text>
-
-      </g>
-
-      <!-- database -->
-
-      <g transform="translate(1035 165)">
-
-        <rect width="120" height="46" rx="12"
-              fill="url(#glass)"
-              stroke="#22D3EE"
-              stroke-opacity=".22"/>
-
-        <circle cx="18" cy="23" r="4"
-                fill="#22D3EE"
-                filter="url(#glowCyan)"/>
-
-        <text x="31" y="20"
-              fill="#E5E7EB"
-              font-size="11"
-              font-weight="600">
-          DATA
-        </text>
-
-        <text x="31" y="34"
-              fill="#64748B"
-              font-size="8">
-          PostgreSQL · ML
-        </text>
-
-      </g>
-
-    </g>
-
-    <!-- ================================================== -->
-    <!-- LEFT SIDE IDENTITY -->
-    <!-- ================================================== -->
-
-    <g font-family="Inter, Arial, sans-serif">
-
-      <text x="80" y="105"
-            fill="#64748B"
-            font-size="11"
-            letter-spacing="4">
-        SOFTWARE ENGINEERING / 01
+  <rect width="1200" height="520" rx="24" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <rect
+    x="0"
+    y="0"
+    width="1200"
+    height="520"
+    fill="url(#grid)"
+  />
+
+  <!-- Perspective floor -->
+  <g opacity=".22">
+    <path
+      d="M0 420H1200"
+      stroke="#67E8F9"
+      stroke-opacity=".12"
+    />
+    <path
+      d="M80 520L600 420L1120 520"
+      stroke="#67E8F9"
+      stroke-opacity=".08"
+    />
+    <path
+      d="M220 520L600 420L980 520"
+      stroke="#67E8F9"
+      stroke-opacity=".06"
+    />
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- LEFT IDENTITY -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(72 88)">
+
+    <!-- tiny status -->
+    <circle
+      cx="5"
+      cy="5"
+      r="4"
+      fill="#67E8F9"
+      filter="url(#glow)"
+    />
+
+    <text
+      x="18"
+      y="10"
+      fill="#67E8F9"
+      font-family="Inter, Arial, sans-serif"
+      font-size="12"
+      font-weight="600"
+      letter-spacing="3"
+    >
+      SYSTEM ONLINE
+    </text>
+
+    <!-- name -->
+    <text
+      x="0"
+      y="62"
+      fill="#F8FAFC"
+      font-family="Inter, Arial, sans-serif"
+      font-size="39"
+      font-weight="750"
+      letter-spacing="-1.5"
+    >
+      VELİ BARAN
+    </text>
+
+    <text
+      x="0"
+      y="104"
+      fill="#F8FAFC"
+      font-family="Inter, Arial, sans-serif"
+      font-size="39"
+      font-weight="750"
+      letter-spacing="-1.5"
+    >
+      ASLAN
+    </text>
+
+    <!-- separator -->
+    <rect
+      x="0"
+      y="130"
+      width="64"
+      height="2"
+      rx="1"
+      fill="#67E8F9"
+    />
+
+    <!-- role -->
+    <text
+      x="0"
+      y="164"
+      fill="#CBD5E1"
+      font-family="Inter, Arial, sans-serif"
+      font-size="15"
+      font-weight="500"
+    >
+      SOFTWARE DEVELOPER
+    </text>
+
+    <text
+      x="0"
+      y="190"
+      fill="#64748B"
+      font-family="Inter, Arial, sans-serif"
+      font-size="13"
+    >
+      Full-Stack · SaaS · Systems · AI
+    </text>
+
+    <!-- terminal -->
+    <g transform="translate(0 232)">
+
+      <rect
+        width="292"
+        height="94"
+        rx="12"
+        fill="#070A11"
+        stroke="#FFFFFF"
+        stroke-opacity=".09"
+      />
+
+      <circle cx="17" cy="17" r="3" fill="#334155"/>
+      <circle cx="29" cy="17" r="3" fill="#334155"/>
+      <circle cx="41" cy="17" r="3" fill="#334155"/>
+
+      <text
+        x="18"
+        y="48"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="11"
+      >
+        ~/systems
       </text>
 
-      <text x="80" y="160"
-            fill="#FFFFFF"
-            font-size="42"
-            font-weight="700"
-            letter-spacing="-1.5">
-        VELİ BARAN
+      <text
+        x="18"
+        y="69"
+        fill="#67E8F9"
+        font-family="monospace"
+        font-size="12"
+      >
+        $ build --ship --scale
       </text>
 
-      <text x="80" y="208"
-            fill="#FFFFFF"
-            font-size="42"
-            font-weight="700"
-            letter-spacing="-1.5">
-        ASLAN
-      </text>
-
-      <text x="82" y="246"
-            fill="#94A3B8"
-            font-size="14">
-        Full-Stack Developer · SaaS Builder
-      </text>
-
-      <text x="82" y="268"
-            fill="#64748B"
-            font-size="12">
-        Business Systems · Data · AI · Automation
-      </text>
-
-      <!-- status -->
-
-      <g transform="translate(82 310)">
-
-        <rect width="150" height="32"
-              rx="16"
-              fill="#0B1220"
-              stroke="#22D3EE"
-              stroke-opacity=".2"/>
-
-        <circle cx="18" cy="16" r="4"
-                fill="#22D3EE"
-                filter="url(#glowCyan)">
-          <animate attributeName="opacity"
-                   values=".4;1;.4"
-                   dur="2s"
-                   repeatCount="indefinite"/>
-        </circle>
-
-        <text x="31" y="20"
-              fill="#CBD5E1"
-              font-size="10"
-              letter-spacing=".5">
-          BUILDING SYSTEMS
-        </text>
-
-      </g>
-
-      <!-- mini terminal -->
-
-      <g transform="translate(80 385)">
-
-        <rect width="330" height="68"
-              rx="14"
-              fill="#08080D"
-              stroke="#FFFFFF"
-              stroke-opacity=".08"/>
-
-        <circle cx="18" cy="18" r="4" fill="#334155"/>
-        <circle cx="31" cy="18" r="4" fill="#334155"/>
-        <circle cx="44" cy="18" r="4" fill="#334155"/>
-
-        <text x="20" y="44"
-              fill="#64748B"
-              font-size="10"
-              font-family="monospace">
-          $ build --systems --ship --improve
-        </text>
-
-        <text x="20" y="59"
-              fill="#22D3EE"
-              font-size="9"
-              font-family="monospace">
-          ✓ production ready
-        </text>
-
-      </g>
+      <rect
+        x="193"
+        y="60"
+        width="7"
+        height="13"
+        rx="1"
+        fill="#67E8F9"
+      >
+        <animate
+          attributeName="opacity"
+          values="1;0;1"
+          dur="1s"
+          repeatCount="indefinite"
+        />
+      </rect>
 
     </g>
 
   </g>
 
-  <!-- border -->
+  <!-- ====================================================== -->
+  <!-- GLOBE AMBIENT GLOW -->
+  <!-- ====================================================== -->
 
-  <rect x=".75" y=".75"
-        width="1198.5"
-        height="518.5"
-        rx="28"
-        stroke="#FFFFFF"
-        stroke-opacity=".08"
-        stroke-width="1.5"/>
+  <circle
+    cx="770"
+    cy="260"
+    r="210"
+    fill="#22D3EE"
+    opacity=".045"
+    filter="url(#softGlow)"
+  />
+
+  <circle
+    cx="770"
+    cy="260"
+    r="190"
+    fill="url(#globeCore)"
+    stroke="#67E8F9"
+    stroke-opacity=".14"
+    stroke-width="1"
+  />
+
+  <!-- ====================================================== -->
+  <!-- ORBIT RINGS -->
+  <!-- ====================================================== -->
+
+  <g
+    transform="rotate(-17 770 260)"
+    fill="none"
+    stroke="url(#orbit)"
+  >
+
+    <ellipse
+      cx="770"
+      cy="260"
+      rx="244"
+      ry="73"
+      stroke-width="1.2"
+    />
+
+    <ellipse
+      cx="770"
+      cy="260"
+      rx="226"
+      ry="116"
+      stroke-opacity=".35"
+      stroke-width="1"
+    />
+
+  </g>
+
+  <g
+    transform="rotate(18 770 260)"
+    fill="none"
+  >
+    <ellipse
+      cx="770"
+      cy="260"
+      rx="235"
+      ry="70"
+      stroke="#8B5CF6"
+      stroke-opacity=".16"
+      stroke-width="1"
+    />
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- GLOBE -->
+  <!-- ====================================================== -->
+
+  <g clip-path="url(#globeClip)">
+
+    <!-- vertical meridians -->
+    <g
+      fill="none"
+      stroke="url(#globeLine)"
+      stroke-width="1"
+      stroke-opacity=".42"
+    >
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="178"
+        ry="178"
+      />
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="138"
+        ry="178"
+      />
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="94"
+        ry="178"
+      />
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="50"
+        ry="178"
+      />
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="16"
+        ry="178"
+      />
+
+    </g>
+
+    <!-- horizontal latitude lines -->
+    <g
+      fill="none"
+      stroke="#67E8F9"
+      stroke-opacity=".34"
+      stroke-width="1"
+    >
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="178"
+        ry="178"
+      />
+
+      <ellipse
+        cx="770"
+        cy="205"
+        rx="151"
+        ry="54"
+      />
+
+      <ellipse
+        cx="770"
+        cy="225"
+        rx="166"
+        ry="32"
+      />
+
+      <ellipse
+        cx="770"
+        cy="260"
+        rx="178"
+        ry="13"
+      />
+
+      <ellipse
+        cx="770"
+        cy="295"
+        rx="166"
+        ry="32"
+      />
+
+      <ellipse
+        cx="770"
+        cy="315"
+        rx="151"
+        ry="54"
+      />
+
+    </g>
+
+    <!-- diagonal network longitude -->
+    <g
+      fill="none"
+      stroke="#A78BFA"
+      stroke-opacity=".17"
+      stroke-width=".8"
+    >
+      <path d="M610 165C690 225 850 295 930 355"/>
+      <path d="M620 350C700 290 840 220 920 165"/>
+    </g>
+
+  </g>
+
+  <!-- Globe outer rim -->
+  <circle
+    cx="770"
+    cy="260"
+    r="178"
+    fill="none"
+    stroke="#67E8F9"
+    stroke-opacity=".38"
+    stroke-width="1.4"
+  />
+
+  <!-- ====================================================== -->
+  <!-- GLOBE ROTATION EFFECT -->
+  <!-- ====================================================== -->
+
+  <g opacity=".55">
+
+    <path
+      d="M592 250C650 210 690 190 730 180"
+      stroke="#67E8F9"
+      stroke-opacity=".28"
+      stroke-width="1"
+    />
+
+    <path
+      d="M812 342C862 330 907 303 944 270"
+      stroke="#8B5CF6"
+      stroke-opacity=".28"
+      stroke-width="1"
+    />
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- NETWORK NODES -->
+  <!-- ====================================================== -->
+
+  <g filter="url(#glow)">
+
+    <!-- North America -->
+    <circle cx="682" cy="207" r="4" fill="#67E8F9"/>
+    <circle cx="682" cy="207" r="9" fill="none" stroke="#67E8F9" stroke-opacity=".22"/>
+
+    <!-- Europe -->
+    <circle cx="790" cy="207" r="4" fill="#A78BFA"/>
+    <circle cx="790" cy="207" r="10" fill="none" stroke="#A78BFA" stroke-opacity=".2"/>
+
+    <!-- Asia -->
+    <circle cx="845" cy="232" r="4" fill="#67E8F9"/>
+    <circle cx="845" cy="232" r="10" fill="none" stroke="#67E8F9" stroke-opacity=".18"/>
+
+    <!-- Africa -->
+    <circle cx="785" cy="283" r="4" fill="#67E8F9"/>
+    <circle cx="785" cy="283" r="10" fill="none" stroke="#67E8F9" stroke-opacity=".18"/>
+
+    <!-- South America -->
+    <circle cx="712" cy="315" r="4" fill="#A78BFA"/>
+    <circle cx="712" cy="315" r="9" fill="none" stroke="#A78BFA" stroke-opacity=".18"/>
+
+    <!-- Australia -->
+    <circle cx="866" cy="320" r="4" fill="#67E8F9"/>
+    <circle cx="866" cy="320" r="9" fill="none" stroke="#67E8F9" stroke-opacity=".18"/>
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- CONNECTIONS -->
+  <!-- ====================================================== -->
+
+  <g
+    stroke="#67E8F9"
+    stroke-opacity=".28"
+    stroke-width="1"
+  >
+
+    <path d="M682 207L790 207"/>
+    <path d="M790 207L845 232"/>
+    <path d="M790 207L785 283"/>
+    <path d="M785 283L712 315"/>
+    <path d="M785 283L866 320"/>
+    <path d="M845 232L866 320"/>
+    <path d="M682 207L712 315"/>
+
+  </g>
+
+  <!-- animated network pulses -->
+
+  <circle r="3" fill="url(#packet)" filter="url(#glow)">
+    <animateMotion
+      dur="3.8s"
+      repeatCount="indefinite"
+      path="M682 207L790 207L845 232"
+    />
+  </circle>
+
+  <circle r="2.5" fill="#A78BFA" filter="url(#glow)">
+    <animateMotion
+      dur="4.4s"
+      begin="1s"
+      repeatCount="indefinite"
+      path="M845 232L785 283L866 320"
+    />
+  </circle>
+
+  <circle r="2.5" fill="#67E8F9" filter="url(#glow)">
+    <animateMotion
+      dur="4.8s"
+      begin=".6s"
+      repeatCount="indefinite"
+      path="M712 315L785 283L790 207"
+    />
+  </circle>
+
+  <!-- ====================================================== -->
+  <!-- ORBITING DATA PACKETS -->
+  <!-- ====================================================== -->
+
+  <circle
+    r="3.5"
+    fill="#67E8F9"
+    filter="url(#glow)"
+  >
+    <animateMotion
+      dur="6s"
+      repeatCount="indefinite"
+      path="M526 260
+            C526 150 630 115 770 115
+            C910 115 1014 150 1014 260
+            C1014 370 910 405 770 405
+            C630 405 526 370 526 260Z"
+    />
+  </circle>
+
+  <circle
+    r="2.5"
+    fill="#A78BFA"
+    filter="url(#glow)"
+  >
+    <animateMotion
+      dur="8s"
+      begin="2s"
+      repeatCount="indefinite"
+      path="M535 260
+            C600 350 700 385 770 385
+            C840 385 940 350 1005 260
+            C940 170 840 135 770 135
+            C700 135 600 170 535 260Z"
+    />
+  </circle>
+
+  <!-- ====================================================== -->
+  <!-- RIGHT SYSTEM CARDS -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(1000 118)">
+
+    <!-- API -->
+    <rect
+      width="128"
+      height="58"
+      rx="10"
+      fill="#080C14"
+      stroke="#67E8F9"
+      stroke-opacity=".18"
+    />
+
+    <circle
+      cx="19"
+      cy="20"
+      r="5"
+      fill="#67E8F9"
+      filter="url(#glow)"
+    />
+
+    <text
+      x="33"
+      y="24"
+      fill="#E2E8F0"
+      font-family="Inter, Arial, sans-serif"
+      font-size="12"
+      font-weight="600"
+    >
+      API
+    </text>
+
+    <text
+      x="33"
+      y="42"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="9"
+    >
+      REST / JSON
+    </text>
+
+  </g>
+
+  <g transform="translate(1000 196)">
+
+    <!-- DATA -->
+    <rect
+      width="128"
+      height="58"
+      rx="10"
+      fill="#080C14"
+      stroke="#8B5CF6"
+      stroke-opacity=".18"
+    />
+
+    <circle
+      cx="19"
+      cy="20"
+      r="5"
+      fill="#A78BFA"
+      filter="url(#glow)"
+    />
+
+    <text
+      x="33"
+      y="24"
+      fill="#E2E8F0"
+      font-family="Inter, Arial, sans-serif"
+      font-size="12"
+      font-weight="600"
+    >
+      DATA
+    </text>
+
+    <text
+      x="33"
+      y="42"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="9"
+    >
+      PostgreSQL
+    </text>
+
+  </g>
+
+  <g transform="translate(1000 274)">
+
+    <!-- AI -->
+    <rect
+      width="128"
+      height="58"
+      rx="10"
+      fill="#080C14"
+      stroke="#67E8F9"
+      stroke-opacity=".18"
+    />
+
+    <circle
+      cx="19"
+      cy="20"
+      r="5"
+      fill="#67E8F9"
+      filter="url(#glow)"
+    />
+
+    <text
+      x="33"
+      y="24"
+      fill="#E2E8F0"
+      font-family="Inter, Arial, sans-serif"
+      font-size="12"
+      font-weight="600"
+    >
+      AI / ML
+    </text>
+
+    <text
+      x="33"
+      y="42"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="9"
+    >
+      MODELS / DATA
+    </text>
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- CONNECTIONS TO SYSTEM CARDS -->
+  <!-- ====================================================== -->
+
+  <g
+    fill="none"
+    stroke-width="1"
+    stroke-dasharray="4 7"
+  >
+
+    <path
+      d="M844 207C900 185 945 158 1000 147"
+      stroke="#67E8F9"
+      stroke-opacity=".3"
+    />
+
+    <path
+      d="M865 250C920 235 960 225 1000 225"
+      stroke="#A78BFA"
+      stroke-opacity=".25"
+    />
+
+    <path
+      d="M870 300C925 300 965 303 1000 303"
+      stroke="#67E8F9"
+      stroke-opacity=".25"
+    />
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- STATUS FOOTER -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(72 466)">
+
+    <text
+      x="0"
+      y="0"
+      fill="#475569"
+      font-family="monospace"
+      font-size="10"
+      letter-spacing="1.5"
+    >
+      BUILD · SHIP · IMPROVE
+    </text>
+
+    <text
+      x="1050"
+      y="0"
+      fill="#334155"
+      font-family="monospace"
+      font-size="10"
+      text-anchor="end"
+    >
+      01 / SYSTEMS
+    </text>
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- BORDER -->
+  <!-- ====================================================== -->
+
+  <rect
+    x=".75"
+    y=".75"
+    width="1198.5"
+    height="518.5"
+    rx="24"
+    stroke="#FFFFFF"
+    stroke-opacity=".08"
+    stroke-width="1.5"
+  />
 
 </svg>
