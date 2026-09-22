@@ -1,1 +1,283 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="0.5" stop-color="#0D0D0D"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
 
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(930 110) rotate(140) scale(400 300)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="line" x1="100" y1="0" x2="1050" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" rx="24" fill="url(#background)"/>
+
+  <!-- Ambient glow -->
+  <rect width="1200" height="400" rx="24" fill="url(#glow)"/>
+
+  <!-- Grid -->
+  <g opacity="0.055" stroke="white">
+    <path d="M0 80H1200"/>
+    <path d="M0 160H1200"/>
+    <path d="M0 240H1200"/>
+    <path d="M0 320H1200"/>
+
+    <path d="M100 0V400"/>
+    <path d="M200 0V400"/>
+    <path d="M300 0V400"/>
+    <path d="M400 0V400"/>
+    <path d="M500 0V400"/>
+    <path d="M600 0V400"/>
+    <path d="M700 0V400"/>
+    <path d="M800 0V400"/>
+    <path d="M900 0V400"/>
+    <path d="M1000 0V400"/>
+    <path d="M1100 0V400"/>
+  </g>
+
+  <!-- Top accent -->
+  <rect x="70" y="55" width="56" height="3" rx="1.5" fill="white"/>
+
+  <!-- Small label -->
+  <text
+    x="70"
+    y="96"
+    fill="#858585"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="3">
+    SOFTWARE DEVELOPER
+  </text>
+
+  <!-- Main name -->
+  <text
+    x="70"
+    y="166"
+    fill="white"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="52"
+    font-weight="700"
+    letter-spacing="-2">
+    Veli Baran Aslan
+  </text>
+
+  <!-- Divider -->
+  <rect x="70" y="190" width="500" height="1" fill="url(#line)"/>
+
+  <!-- Subtitle -->
+  <text
+    x="70"
+    y="232"
+    fill="#D0D0D0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20">
+    Full-Stack Builder · SaaS · Business Systems
+  </text>
+
+  <text
+    x="70"
+    y="264"
+    fill="#777777"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15">
+    Web platforms · APIs · Data &amp; AI · Automation
+  </text>
+
+  <!-- Architecture visual -->
+  <g transform="translate(770 95)">
+
+    <!-- Main container -->
+    <rect
+      x="0"
+      y="0"
+      width="300"
+      height="205"
+      rx="18"
+      fill="white"
+      fill-opacity="0.025"
+      stroke="white"
+      stroke-opacity="0.12"/>
+
+    <!-- Browser -->
+    <rect
+      x="28"
+      y="25"
+      width="244"
+      height="38"
+      rx="9"
+      fill="white"
+      fill-opacity="0.035"
+      stroke="white"
+      stroke-opacity="0.08"/>
+
+    <circle cx="48" cy="44" r="4" fill="white" fill-opacity="0.65"/>
+    <circle cx="63" cy="44" r="4" fill="white" fill-opacity="0.35"/>
+    <circle cx="78" cy="44" r="4" fill="white" fill-opacity="0.18"/>
+
+    <!-- Frontend -->
+    <rect
+      x="28"
+      y="84"
+      width="108"
+      height="78"
+      rx="12"
+      fill="white"
+      fill-opacity="0.025"
+      stroke="white"
+      stroke-opacity="0.08"/>
+
+    <text
+      x="48"
+      y="112"
+      fill="#999999"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="600"
+      letter-spacing="1.5">
+      FRONTEND
+    </text>
+
+    <text
+      x="48"
+      y="136"
+      fill="#666666"
+      font-family="monospace"
+      font-size="11">
+      React
+    </text>
+
+    <text
+      x="48"
+      y="153"
+      fill="#666666"
+      font-family="monospace"
+      font-size="11">
+      Next.js
+    </text>
+
+    <!-- Backend -->
+    <rect
+      x="164"
+      y="84"
+      width="108"
+      height="78"
+      rx="12"
+      fill="white"
+      fill-opacity="0.025"
+      stroke="white"
+      stroke-opacity="0.08"/>
+
+    <text
+      x="184"
+      y="112"
+      fill="#999999"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="600"
+      letter-spacing="1.5">
+      BACKEND
+    </text>
+
+    <text
+      x="184"
+      y="136"
+      fill="#666666"
+      font-family="monospace"
+      font-size="11">
+      Node.js
+    </text>
+
+    <text
+      x="184"
+      y="153"
+      fill="#666666"
+      font-family="monospace"
+      font-size="11">
+      APIs
+    </text>
+
+    <!-- Connections -->
+    <path
+      d="M136 123H164"
+      stroke="white"
+      stroke-opacity="0.18"/>
+
+    <path
+      d="M150 63V84"
+      stroke="white"
+      stroke-opacity="0.18"/>
+
+    <!-- Database -->
+    <ellipse
+      cx="150"
+      cy="184"
+      rx="43"
+      ry="11"
+      fill="white"
+      fill-opacity="0.025"
+      stroke="white"
+      stroke-opacity="0.10"/>
+
+    <path
+      d="M107 184V197C107 203 126 208 150 208C174 208 193 203 193 197V184"
+      fill="white"
+      fill-opacity="0.02"
+      stroke="white"
+      stroke-opacity="0.10"/>
+
+    <text
+      x="127"
+      y="189"
+      fill="#777777"
+      font-family="monospace"
+      font-size="9">
+      DATA
+    </text>
+
+  </g>
+
+  <!-- Bottom metadata -->
+  <text
+    x="70"
+    y="350"
+    fill="#555555"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="600"
+    letter-spacing="2.5">
+    BUILD · SHIP · IMPROVE
+  </text>
+
+  <text
+    x="1130"
+    y="350"
+    text-anchor="end"
+    fill="#555555"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="600"
+    letter-spacing="2.5">
+    2026
+  </text>
+
+  <!-- Border -->
+  <rect
+    x="0.5"
+    y="0.5"
+    width="1199"
+    height="399"
+    rx="23.5"
+    stroke="white"
+    stroke-opacity="0.08"/>
+</svg>
