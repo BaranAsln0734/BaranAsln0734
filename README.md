@@ -4,221 +4,178 @@
 
 <p align="center">
   <a href="https://github.com/BaranAsln0734">
-    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181717?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
 </p>
 
-# Veli Baran Aslan
+<p align="center">
+  <strong>Software Developer</strong> · Full-Stack · SaaS · Business Systems
+</p>
 
-### Software Developer · Full-Stack Builder · SaaS & Business Systems
+<p align="center">
+  I build software that turns real operational workflows into scalable digital products.
+</p>
 
-I build software around real business problems.
+---
 
-My work spans full-stack web applications, business management systems, APIs, automation, data products and machine learning.
+## About
 
-I enjoy taking a real-world workflow, understanding how it actually works, designing the system behind it, and turning it into software that can be used in production.
+I'm a full-stack developer focused on **business software, SaaS products, automation and data-driven systems**.
+
+I work across the stack — from product architecture and database design to APIs, frontend systems, deployment and analytics.
+
+My projects are often built around real companies and real workflows, which means I care about more than writing code:
+
+**understand the business → design the system → ship the product → improve it.**
 
 ---
 
 ## What I Build
 
-| Area | Focus |
+| | |
 |---|---|
-| 🌐 Web Platforms | Production-oriented websites and web applications |
-| ⚙️ Business Software | CRM, service management, customer and workflow systems |
-| 🔌 APIs & Backend | REST APIs, authentication, databases and integrations |
-| 📊 Data & AI | Machine learning, analytics, prediction and explainability |
-| 📱 Mobile | Cross-platform applications and Android builds |
-| 🚀 Automation | Business processes, SEO automation and internal tooling |
+| **SaaS & Business Software** | CRM, service management, customer workflows, dashboards |
+| **Full-Stack Applications** | React, Next.js, TypeScript, Node.js, REST APIs |
+| **Data & AI** | Machine learning, predictive analytics, explainable models |
+| **Automation** | Business workflows, integrations, SEO and internal tooling |
+| **Mobile** | Capacitor / Android applications |
+| **Infrastructure** | Linux, VPS, Docker, databases and deployment |
 
 ---
 
-## Featured Projects
+## Selected Work
 
 ### ⚡ CVSPower
+Full-stack generator/service management platform designed around real operational workflows.
 
-A business-oriented generator and service management platform.
+**React · TypeScript · Express · PostgreSQL · SQLite · Capacitor · REST APIs**
 
-**Focus:**
-- Customer management
-- Service / work-order workflows
-- Reporting
-- PDF generation
-- QR systems
-- Maps and location features
-- Authentication and authorization
-- PostgreSQL / SQLite
-- React + TypeScript
-- Node.js / Express
-- Capacitor / Android
+Customer management, service tracking, work orders, reporting, PDFs, QR systems, maps, authentication and mobile support.
 
-> A real-world full-stack system designed around an operational business workflow.
+### 🌐 Business Platforms
+Production-oriented web platforms for companies across energy, electrical, HVAC, automotive and industrial sectors.
 
----
+**Next.js · React · TypeScript · Tailwind · PostgreSQL · Supabase**
 
-### 🌐 Business Web Platforms
+Projects include **CvsPower, Akan Enerji, Delfin Elektrik, KlimaServis, Erden Konveyör, OtoServis, Acil Jeneratör Servisi and Lidersan Elektrik.**
 
-I build production websites and digital platforms for real businesses across multiple industries.
+### 🏢 Vertical Business Systems
+Reusable software concepts for service-based industries.
 
-Projects include:
-
-- **CvsPower**
-- **Akan Enerji**
-- **Delfin Elektrik**
-- **KlimaServis**
-- **Erden Konveyör**
-- **OtoServis**
-- **Acil Jeneratör Servisi**
-- **Lidersan Elektrik**
-
-Typical stack:
-
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Supabase`
-
-I also work on:
-
-- Technical SEO
-- Indexing automation
-- Google APIs
-- Performance
-- Analytics
-- Responsive UI
-- Production deployment
-
----
-
-### 🏢 Business Management Systems
-
-I am developing reusable software concepts for different service-based industries.
-
-The goal is to turn common business workflows into modular software systems that can be adapted to different companies.
-
-Examples include:
-
-- Customer management
-- Service tracking
-- Work orders
-- Employee workflows
-- Document generation
-- Reporting
-- Notifications
-- Business dashboards
-
----
+Customer management · Service tracking · Work orders · Reporting · Documents · Notifications · Dashboards
 
 ### 🏠 Apartment Management
+Full-stack building management platform.
 
-A full-stack apartment / building management system.
-
-**Stack:**
-
-`React` · `Vite` · `TypeScript` · `Tailwind CSS` · `Node.js` · `Express` · `Prisma`
-
-The project focuses on turning building management workflows into a centralized digital system.
-
----
+**React · Vite · TypeScript · Tailwind · Express · Prisma**
 
 ### 📊 Customer Churn Prediction
+End-to-end ML system covering data preparation, model training, explainability, business impact analysis, API and dashboard.
 
-An end-to-end machine learning project for customer churn analysis.
-
-**Pipeline:**
-
-`Data → EDA → Preprocessing → Feature Engineering → SMOTE → Model Training → Explainability → API → Dashboard`
-
-Technologies:
-
-`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `XGBoost` · `SHAP` · `FastAPI` · `Streamlit`
-
-The project includes:
-
-- Exploratory data analysis
-- Feature engineering
-- Class balancing
-- Multiple ML models
-- Model comparison
-- SHAP explainability
-- Business impact analysis
-- REST API
-- Interactive dashboard
-- Automated tests
-- Docker support
+**Python · Pandas · Scikit-learn · XGBoost · SHAP · FastAPI · Streamlit**
 
 ---
 
-# Technology
+## Tech Stack
 
-### Languages
+**Languages**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=3776AB)
+![SQL](https://img.shields.io/badge/SQL-111111?style=flat-square&logo=postgresql&logoColor=4169E1)
 
-### Frontend
+**Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=next.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-111111?style=flat-square&logo=vite&logoColor=646CFF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-111111?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Framer Motion](https://img.shields.io/badge/Framer-111111?style=flat-square&logo=framer&logoColor=white)
 
-### Backend & APIs
+**Backend & Data**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-111111?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=node.js&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=009688)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Prisma](https://img.shields.io/badge/Prisma-111111?style=flat-square&logo=prisma&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-111111?style=flat-square&logo=supabase&logoColor=3ECF8E)
 
-### Databases
+**AI / ML**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-111111?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-111111?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-111111?style=flat-square&logo=scikit-learn&logoColor=F7931E)
+![XGBoost](https://img.shields.io/badge/XGBoost-111111?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-111111?style=flat-square)
 
-### Data & AI
+**Infrastructure**
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-### Mobile
-
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-
-### Infrastructure & Tools
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=FCC624)
+![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=F05032)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111111?style=flat-square&logo=github-actions&logoColor=2088FF)
 
 ---
 
-# Engineering Approach
+## Engineering Philosophy
 
-```text
-Real Business Problem
-        ↓
-Understand the Workflow
-        ↓
-Design the System
-        ↓
+> **Build useful software, not just software.**
+
+I prefer systems that solve an actual problem, have a clear architecture and can evolve as the business grows.
+
+```
+Problem
+   ↓
+Product
+   ↓
+Architecture
+   ↓
 Database + API
-        ↓
+   ↓
 Frontend + UX
-        ↓
+   ↓
 Automation
-        ↓
+   ↓
 Deployment
-        ↓
-Monitor + Improve
+   ↓
+Iteration
+```
+
+---
+
+## Currently Building
+
+- SaaS architecture for vertical business software
+- AI-powered business applications
+- Data and predictive analytics systems
+- Multi-client platforms
+- Automation and developer tooling
+- Production web applications
+
+---
+
+## GitHub
+
+Most of my work is private because it includes **real businesses, active products and client-specific systems**.
+
+The public repositories are only a small part of what I build.
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BaranAsln0734&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BaranAsln0734&layout=compact&hide_border=true&theme=transparent" height="165" alt="Top Languages">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BaranAsln0734&hide_border=true&bg_color=00000000&color=666666&line=888888&point=ffffff&area=true" width="100%" alt="Contribution Graph">
+</p>
+
+---
+
+<p align="center">
+  <sub>BUILD · SHIP · IMPROVE</sub>
+</p>
