@@ -1,283 +1,52 @@
-<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050505"/>
-      <stop offset="0.5" stop-color="#0D0D0D"/>
-      <stop offset="1" stop-color="#050505"/>
-    </linearGradient>
-
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(930 110) rotate(140) scale(400 300)">
-      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="line" x1="100" y1="0" x2="1050" y2="0">
-      <stop stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Background -->
-  <rect width="1200" height="400" rx="24" fill="url(#background)"/>
-
-  <!-- Ambient glow -->
-  <rect width="1200" height="400" rx="24" fill="url(#glow)"/>
-
-  <!-- Grid -->
-  <g opacity="0.055" stroke="white">
-    <path d="M0 80H1200"/>
-    <path d="M0 160H1200"/>
-    <path d="M0 240H1200"/>
-    <path d="M0 320H1200"/>
-
-    <path d="M100 0V400"/>
-    <path d="M200 0V400"/>
-    <path d="M300 0V400"/>
-    <path d="M400 0V400"/>
-    <path d="M500 0V400"/>
-    <path d="M600 0V400"/>
-    <path d="M700 0V400"/>
-    <path d="M800 0V400"/>
-    <path d="M900 0V400"/>
-    <path d="M1000 0V400"/>
-    <path d="M1100 0V400"/>
-  </g>
-
-  <!-- Top accent -->
-  <rect x="70" y="55" width="56" height="3" rx="1.5" fill="white"/>
-
-  <!-- Small label -->
-  <text
-    x="70"
-    y="96"
-    fill="#858585"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="12"
-    font-weight="600"
-    letter-spacing="3">
-    SOFTWARE DEVELOPER
-  </text>
-
-  <!-- Main name -->
-  <text
-    x="70"
-    y="166"
-    fill="white"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="52"
-    font-weight="700"
-    letter-spacing="-2">
-    Veli Baran Aslan
-  </text>
-
-  <!-- Divider -->
-  <rect x="70" y="190" width="500" height="1" fill="url(#line)"/>
-
-  <!-- Subtitle -->
-  <text
-    x="70"
-    y="232"
-    fill="#D0D0D0"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="20">
-    Full-Stack Builder · SaaS · Business Systems
-  </text>
-
-  <text
-    x="70"
-    y="264"
-    fill="#777777"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="15">
-    Web platforms · APIs · Data &amp; AI · Automation
-  </text>
-
-  <!-- Architecture visual -->
-  <g transform="translate(770 95)">
-
-    <!-- Main container -->
-    <rect
-      x="0"
-      y="0"
-      width="300"
-      height="205"
-      rx="18"
-      fill="white"
-      fill-opacity="0.025"
-      stroke="white"
-      stroke-opacity="0.12"/>
-
-    <!-- Browser -->
-    <rect
-      x="28"
-      y="25"
-      width="244"
-      height="38"
-      rx="9"
-      fill="white"
-      fill-opacity="0.035"
-      stroke="white"
-      stroke-opacity="0.08"/>
-
-    <circle cx="48" cy="44" r="4" fill="white" fill-opacity="0.65"/>
-    <circle cx="63" cy="44" r="4" fill="white" fill-opacity="0.35"/>
-    <circle cx="78" cy="44" r="4" fill="white" fill-opacity="0.18"/>
-
-    <!-- Frontend -->
-    <rect
-      x="28"
-      y="84"
-      width="108"
-      height="78"
-      rx="12"
-      fill="white"
-      fill-opacity="0.025"
-      stroke="white"
-      stroke-opacity="0.08"/>
-
-    <text
-      x="48"
-      y="112"
-      fill="#999999"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="600"
-      letter-spacing="1.5">
-      FRONTEND
-    </text>
-
-    <text
-      x="48"
-      y="136"
-      fill="#666666"
-      font-family="monospace"
-      font-size="11">
-      React
-    </text>
-
-    <text
-      x="48"
-      y="153"
-      fill="#666666"
-      font-family="monospace"
-      font-size="11">
-      Next.js
-    </text>
-
-    <!-- Backend -->
-    <rect
-      x="164"
-      y="84"
-      width="108"
-      height="78"
-      rx="12"
-      fill="white"
-      fill-opacity="0.025"
-      stroke="white"
-      stroke-opacity="0.08"/>
-
-    <text
-      x="184"
-      y="112"
-      fill="#999999"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="10"
-      font-weight="600"
-      letter-spacing="1.5">
-      BACKEND
-    </text>
-
-    <text
-      x="184"
-      y="136"
-      fill="#666666"
-      font-family="monospace"
-      font-size="11">
-      Node.js
-    </text>
-
-    <text
-      x="184"
-      y="153"
-      fill="#666666"
-      font-family="monospace"
-      font-size="11">
-      APIs
-    </text>
-
-    <!-- Connections -->
-    <path
-      d="M136 123H164"
-      stroke="white"
-      stroke-opacity="0.18"/>
-
-    <path
-      d="M150 63V84"
-      stroke="white"
-      stroke-opacity="0.18"/>
-
-    <!-- Database -->
-    <ellipse
-      cx="150"
-      cy="184"
-      rx="43"
-      ry="11"
-      fill="white"
-      fill-opacity="0.025"
-      stroke="white"
-      stroke-opacity="0.10"/>
-
-    <path
-      d="M107 184V197C107 203 126 208 150 208C174 208 193 203 193 197V184"
-      fill="white"
-      fill-opacity="0.02"
-      stroke="white"
-      stroke-opacity="0.10"/>
-
-    <text
-      x="127"
-      y="189"
-      fill="#777777"
-      font-family="monospace"
-      font-size="9">
-      DATA
-    </text>
-
-  </g>
-
-  <!-- Bottom metadata -->
-  <text
-    x="70"
-    y="350"
-    fill="#555555"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="10"
-    font-weight="600"
-    letter-spacing="2.5">
-    BUILD · SHIP · IMPROVE
-  </text>
-
-  <text
-    x="1130"
-    y="350"
-    text-anchor="end"
-    fill="#555555"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="10"
-    font-weight="600"
-    letter-spacing="2.5">
-    2026
-  </text>
-
-  <!-- Border -->
-  <rect
-    x="0.5"
-    y="0.5"
-    width="1199"
-    height="399"
-    rx="23.5"
-    stroke="white"
-    stroke-opacity="0.08"/>
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430"><stop stop-color="#05070B"/><stop offset=".48" stop-color="#0B0E16"/><stop offset="1" stop-color="#050509"/></linearGradient>
+<linearGradient id="accent" x1="70" y1="0" x2="1080" y2="0"><stop stop-color="#6EE7FF"/><stop offset=".48" stop-color="#8B5CF6"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
+<radialGradient id="violet" cx="0" cy="0" r="1" gradientTransform="translate(950 90) rotate(130) scale(430 310)"><stop stop-color="#8B5CF6" stop-opacity=".18"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<radialGradient id="cyan" cx="0" cy="0" r="1" gradientTransform="translate(690 250) scale(330 220)"><stop stop-color="#22D3EE" stop-opacity=".08"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+<pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" stroke="white" stroke-opacity=".035"/></pattern>
+<clipPath id="clip"><rect width="1200" height="430" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="430" fill="url(#bg)"/>
+<rect width="1200" height="430" fill="url(#grid)"/>
+<rect width="1200" height="430" fill="url(#violet)"/>
+<rect width="1200" height="430" fill="url(#cyan)"/>
+<circle cx="1040" cy="74" r="115" fill="#8B5CF6" opacity=".06" filter="url(#blur)"/>
+<circle cx="735" cy="310" r="100" fill="#22D3EE" opacity=".05" filter="url(#blur)"/>
+<rect x="70" y="48" width="1060" height="1" fill="white" fill-opacity=".08"/>
+<circle cx="78" cy="48" r="2.5" fill="#6EE7FF"/>
+<text x="92" y="52" fill="#707784" font-family="Arial" font-size="9" font-weight="700" letter-spacing="2.5">VELI BARAN ASLAN / SOFTWARE</text>
+<text x="1130" y="52" text-anchor="end" fill="#555B66" font-family="monospace" font-size="9">2026</text>
+<text x="70" y="105" fill="#8B93A1" font-family="Arial" font-size="11" font-weight="700" letter-spacing="3.5">FULL-STACK DEVELOPER</text>
+<text x="70" y="165" fill="white" font-family="Arial" font-size="52" font-weight="700" letter-spacing="-2.4">Veli Baran Aslan</text>
+<rect x="70" y="187" width="570" height="1" fill="url(#accent)" opacity=".55"/>
+<text x="70" y="225" fill="#E6E9EF" font-family="Arial" font-size="19" font-weight="600">SaaS · Business Systems · Data &amp; AI</text>
+<text x="70" y="253" fill="#858C98" font-family="Arial" font-size="13">I turn real operational workflows into scalable digital products.</text>
+<g transform="translate(70 280)">
+<rect width="122" height="30" rx="15" fill="white" fill-opacity=".035" stroke="white" stroke-opacity=".08"/><circle cx="16" cy="15" r="3" fill="#6EE7FF"/><text x="28" y="19" fill="#AEB5C1" font-family="monospace" font-size="10">PRODUCT</text>
+<rect x="132" width="122" height="30" rx="15" fill="white" fill-opacity=".035" stroke="white" stroke-opacity=".08"/><circle cx="148" cy="15" r="3" fill="#8B5CF6"/><text x="160" y="19" fill="#AEB5C1" font-family="monospace" font-size="10">FULL-STACK</text>
+<rect x="264" width="122" height="30" rx="15" fill="white" fill-opacity=".035" stroke="white" stroke-opacity=".08"/><circle cx="280" cy="15" r="3" fill="#C084FC"/><text x="292" y="19" fill="#AEB5C1" font-family="monospace" font-size="10">AUTOMATION</text>
+</g>
+<g transform="translate(760 82)">
+<rect width="350" height="270" rx="22" fill="#0A0D14" fill-opacity=".72" stroke="white" stroke-opacity=".10"/>
+<rect x="1" y="1" width="348" height="268" rx="21" stroke="url(#accent)" stroke-opacity=".16"/>
+<text x="26" y="34" fill="#626A77" font-family="monospace" font-size="9" letter-spacing="2">SYSTEM / ARCHITECTURE</text>
+<rect x="25" y="58" width="136" height="62" rx="13" fill="white" fill-opacity=".035" stroke="#6EE7FF" stroke-opacity=".22"/>
+<text x="42" y="81" fill="#6EE7FF" font-family="monospace" font-size="9" font-weight="700">FRONTEND</text><text x="42" y="101" fill="#8C94A1" font-family="monospace" font-size="11">React / Next.js</text>
+<rect x="189" y="58" width="136" height="62" rx="13" fill="white" fill-opacity=".035" stroke="#8B5CF6" stroke-opacity=".22"/>
+<text x="206" y="81" fill="#A78BFA" font-family="monospace" font-size="9" font-weight="700">BACKEND</text><text x="206" y="101" fill="#8C94A1" font-family="monospace" font-size="11">Node / APIs</text>
+<rect x="107" y="153" width="136" height="62" rx="13" fill="white" fill-opacity=".035" stroke="#C084FC" stroke-opacity=".22"/>
+<text x="124" y="176" fill="#C084FC" font-family="monospace" font-size="9" font-weight="700">DATA LAYER</text><text x="124" y="196" fill="#8C94A1" font-family="monospace" font-size="11">PostgreSQL / ML</text>
+<path d="M161 89H189M257 120V153M189 184H161" stroke="white" stroke-opacity=".14"/>
+<circle cx="175" cy="89" r="2.5" fill="#6EE7FF"/><circle cx="257" cy="136" r="2.5" fill="#8B5CF6"/><circle cx="175" cy="184" r="2.5" fill="#C084FC"/>
+<ellipse cx="175" cy="135" rx="132" ry="102" stroke="white" stroke-opacity=".035" stroke-dasharray="3 7"/>
+<circle cx="307" cy="135" r="3" fill="#6EE7FF"><animate attributeName="opacity" values=".3;1;.3" dur="2.4s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="70" y="360" width="1040" height="1" fill="white" fill-opacity=".07"/>
+<text x="70" y="390" fill="#5F6672" font-family="monospace" font-size="9" letter-spacing="2">BUILD / SHIP / IMPROVE</text>
+<text x="1130" y="390" text-anchor="end" fill="#5F6672" font-family="monospace" font-size="9">SAAS • SYSTEMS • AI</text>
+</g>
+<rect x=".5" y=".5" width="1199" height="429" rx="25.5" stroke="white" stroke-opacity=".09"/>
 </svg>
