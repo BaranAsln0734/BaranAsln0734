@@ -38,7 +38,7 @@ I enjoy taking a real-world workflow, understanding how it actually works, desig
 
 ## Featured Projects
 
-### ⚡ CVSPower
+### ⚡ Cvspower
 
 A business-oriented generator and service management platform.
 
@@ -65,7 +65,7 @@ I build production websites and digital platforms for real businesses across mul
 
 Projects include:
 
-- **CvsPower**
+- **Cvspower**
 - **Akan Enerji**
 - **Delfin Elektrik**
 - **KlimaServis**
