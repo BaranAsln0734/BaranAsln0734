@@ -1,24 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" role="img" aria-label="No. 02 — SafeTeklif, quotation and offer management">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="12" result="n"/>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.32  0 0 0 0 0.28  0 0 0 0.55 -0.12"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="22" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.9  0 0 0 0 0.88  0 0 0 0 0.84  0 0 0 0.08 0"/>
     </filter>
   </defs>
   <style>
     .serif { font-family: Georgia, 'Times New Roman', 'Liberation Serif', serif; }
     .mono  { font-family: Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; }
   </style>
-  <rect width="560" height="260" fill="#e2ddd3"/>
-  <rect width="560" height="260" filter="url(#grain)" opacity="0.5"/>
-  <line x1="30" y1="30" x2="530" y2="30" stroke="#181714" stroke-width="3"/>
-  <text class="mono" x="30" y="58" font-size="15" letter-spacing="3" fill="#6f695e">B2B WORKFLOW</text>
-  <text class="serif" x="530" y="58" text-anchor="end" font-size="19" font-style="italic" fill="#6f695e">No. 02</text>
-  <line x1="30" y1="72" x2="530" y2="72" stroke="#55514a" stroke-width="1.2"/>
-  <text class="serif" x="28" y="126" font-size="44" font-weight="700" letter-spacing="-1" fill="#181714">SafeTeklif</text>
-  <text class="serif" x="30" y="162" font-size="22" font-style="italic" fill="#4a463f">quotation and offer management.</text>
-  <text class="serif" x="30" y="192" font-size="19" fill="#181714">PDF generation · online customer approval</text>
-  <rect x="0" y="214" width="560" height="46" fill="#151412"/>
-  <text class="mono" x="30" y="243" font-size="14" letter-spacing="2.5" fill="#b5ad9c">B2B / WORKFLOW</text>
-  <text class="mono" x="530" y="243" text-anchor="end" font-size="14" letter-spacing="2.5" fill="#f3efe6">SAFE DIJITAL</text>
+
+  <!-- dark editorial ink canvas -->
+  <rect width="560" height="260" fill="#151412"/>
+  <rect width="560" height="260" filter="url(#grain)"/>
+
+  <!-- masthead rules -->
+  <line x1="30" y1="30" x2="530" y2="30" stroke="#f3efe6" stroke-width="3"/>
+  <text class="mono" x="30" y="58" font-size="15" letter-spacing="3" fill="#b5ad9c">B2B WORKFLOW</text>
+  <text class="serif" x="530" y="58" text-anchor="end" font-size="19" font-style="italic" fill="#b5ad9c">No. 02</text>
+  <line x1="30" y1="72" x2="530" y2="72" stroke="#3a3732" stroke-width="1.2"/>
+
+  <!-- minimal editorial quotation mark / document emblem -->
+  <g transform="translate(446, 94)" fill="none" stroke="#b5ad9c" stroke-width="1.6" opacity="0.65">
+    <rect x="0" y="0" width="84" height="96" rx="4" stroke="#4a463f"/>
+    <line x1="16" y1="24" x2="68" y2="24"/>
+    <line x1="16" y1="40" x2="56" y2="40" stroke-opacity="0.7"/>
+    <line x1="16" y1="54" x2="48" y2="54" stroke-opacity="0.5"/>
+    <line x1="16" y1="72" x2="68" y2="72" stroke="#4a463f"/>
+    <polyline points="50,82 56,88 68,76" stroke="#f3efe6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- title & copy -->
+  <text class="serif" x="28" y="128" font-size="44" font-weight="700" letter-spacing="-1" fill="#f3efe6">SafeTeklif</text>
+  <text class="serif" x="30" y="162" font-size="21" font-style="italic" fill="#d2ccc0">quotation and offer management.</text>
+  <text class="serif" x="30" y="191" font-size="18" fill="#b5ad9c">PDF generation · online customer approval</text>
+
+  <!-- inverted warm paper footer strip -->
+  <rect x="0" y="214" width="560" height="46" fill="#e2ddd3"/>
+  <text class="mono" x="30" y="243" font-size="14" letter-spacing="2.5" fill="#4a463f">B2B / WORKFLOW</text>
+  <text class="mono" x="530" y="243" text-anchor="end" font-size="14" letter-spacing="2.5" fill="#181714">SAFE DIJITAL</text>
 </svg>
