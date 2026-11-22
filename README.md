@@ -1,25 +1,19 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Veli Baran Aslan" width="100%">
+  <img src="./assets/hero.svg" alt="Veli Baran Aslan — software developer, full-stack builder, SaaS builder" width="100%">
 </p>
 
 <p align="center">
   <a href="https://github.com/BaranAsln0734">
-    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181717?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  <a href="https://safedijital.com">
+    <img src="https://img.shields.io/badge/Safe_Dijital-safedijital.com-39D353?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Safe Dijital">
   </a>
 </p>
 
-# Veli Baran Aslan
+I build software around real business problems: taking a real-world workflow, understanding how it actually works, designing the system behind it and turning it into software that runs in production.
 
-### Software Developer · Full-Stack Builder · SaaS & Business Systems
-
-I build software around real business problems.
-
-My work spans full-stack web applications, business management systems, APIs, automation, data products and machine learning.
-
-I enjoy taking a real-world workflow, understanding how it actually works, designing the system behind it, and turning it into software that can be used in production.
+My work spans **full-stack web apps, business management systems, APIs, automation** and **data / machine learning**.
 
 ---
 
@@ -27,11 +21,11 @@ I enjoy taking a real-world workflow, understanding how it actually works, desig
 
 | Area | Focus |
 |---|---|
-| 🌐 Web Platforms | Production-oriented websites and web applications |
-| ⚙️ Business Software | CRM, service management, customer and workflow systems |
+| 🌐 Web Platforms | Production websites and web applications |
+| ⚙️ Business Software | CRM, service management, quotation and workflow systems |
 | 🔌 APIs & Backend | REST APIs, authentication, databases and integrations |
 | 📊 Data & AI | Machine learning, analytics, prediction and explainability |
-| 📱 Mobile | Cross-platform applications and Android builds |
+| 📱 Mobile | Cross-platform apps and Android builds |
 | 🚀 Automation | Business processes, SEO automation and internal tooling |
 
 ---
@@ -40,185 +34,81 @@ I enjoy taking a real-world workflow, understanding how it actually works, desig
 
 ### ⚡ Cvspower
 
-A business-oriented generator and service management platform.
+A generator sales & service management platform built around a real operational workflow.
 
-**Focus:**
-- Customer management
-- Service / work-order workflows
-- Reporting
-- PDF generation
-- QR systems
-- Maps and location features
-- Authentication and authorization
-- PostgreSQL / SQLite
-- React + TypeScript
-- Node.js / Express
-- Capacitor / Android
+- **Operations:** customers, service / work orders, reporting, PDF documents, QR tracking, maps & locations
+- **Platform:** authentication & role-based access, web + Android (Capacitor)
+- **Stack:** `React` · `TypeScript` · `Node.js` · `Express` · `PostgreSQL` / `SQLite` · `Capacitor`
 
-> A real-world full-stack system designed around an operational business workflow.
+### 🧩 Safe Dijital Products
 
----
+Modular business software under [Safe Dijital](https://safedijital.com): common service-industry workflows turned into products that can be adapted to different companies.
 
-### 🌐 Business Web Platforms
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></td>
+    <td width="50%"><img src="./assets/project-teklifpro.svg" alt="TeklifPro — quotation and offer management" width="100%"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/project-apartman.svg" alt="SafeApartman — apartment and building management" width="100%"></td>
+    <td width="50%"><a href="https://github.com/BaranAsln0734/churn-prediction"><img src="./assets/project-churn.svg" alt="Customer Churn Prediction" width="100%"></a></td>
+  </tr>
+</table>
 
-I build production websites and digital platforms for real businesses across multiple industries.
+- **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
+- **TeklifPro** — quotation management, PDF generation, online customer approval
+- **SafeServis** — service tracking, work orders, employee workflows and notifications
+- **SafeApartman** — residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
 
-Projects include:
+### 📊 [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)
 
-- **Cvspower**
-- **Akan Enerji**
-- **Delfin Elektrik**
-- **KlimaServis**
-- **Erden Konveyör**
-- **OtoServis**
-- **Acil Jeneratör Servisi**
-- **Lidersan Elektrik**
+An end-to-end machine learning project, from raw data to an API and dashboard.
 
-Typical stack:
+`Data → EDA → Feature Engineering → SMOTE → Model Training → SHAP → FastAPI → Streamlit`
 
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Supabase`
+Includes multiple model comparison, SHAP explainability, business impact analysis, automated tests and Docker support.
+**Stack:** `Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `SHAP` · `FastAPI` · `Streamlit`
 
-I also work on:
+### 🌐 Client Web Platforms
 
-- Technical SEO
-- Indexing automation
-- Google APIs
-- Performance
-- Analytics
-- Responsive UI
-- Production deployment
+Production websites and digital platforms for real businesses, live and maintained.
 
----
+| Project | Industry |
+|---|---|
+| **Cvspower** | Generators & power systems |
+| **Akan Enerji** | Energy |
+| **Delfin Elektrik** | Electrical services |
+| **Lidersan Elektrik** | Electrical services |
+| **Acil Jeneratör Servisi** | Generator service |
+| **KlimaServis** | HVAC service |
+| **OtoServis** | Automotive service |
+| **Erden Konveyör** | Industrial conveyors |
 
-### 🏢 Business Management Systems
-
-I am developing reusable software concepts for different service-based industries.
-
-The goal is to turn common business workflows into modular software systems that can be adapted to different companies.
-
-Examples include:
-
-- Customer management
-- Service tracking
-- Work orders
-- Employee workflows
-- Document generation
-- Reporting
-- Notifications
-- Business dashboards
+**Stack:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Supabase`
+**Also:** technical SEO, indexing automation with Google APIs, performance, analytics and production deployment.
 
 ---
 
-### 🏠 Apartment Management
+## Technology
 
-A full-stack apartment / building management system.
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,vite,tailwind,nodejs,express,fastapi,postgres,sqlite,prisma,supabase&perline=14" alt="Languages, frameworks and databases">
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=sklearn,docker,linux,ubuntu,git,githubactions,androidstudio&perline=14" alt="Data, infrastructure and tools">
+</p>
 
-**Stack:**
-
-`React` · `Vite` · `TypeScript` · `Tailwind CSS` · `Node.js` · `Express` · `Prisma`
-
-The project focuses on turning building management workflows into a centralized digital system.
-
----
-
-### 📊 Customer Churn Prediction
-
-An end-to-end machine learning project for customer churn analysis.
-
-**Pipeline:**
-
-`Data → EDA → Preprocessing → Feature Engineering → SMOTE → Model Training → Explainability → API → Dashboard`
-
-Technologies:
-
-`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `XGBoost` · `SHAP` · `FastAPI` · `Streamlit`
-
-The project includes:
-
-- Exploratory data analysis
-- Feature engineering
-- Class balancing
-- Multiple ML models
-- Model comparison
-- SHAP explainability
-- Business impact analysis
-- REST API
-- Interactive dashboard
-- Automated tests
-- Docker support
+Plus `Pandas` · `NumPy` · `XGBoost` · `Jupyter` · `Streamlit` · `Capacitor` · `Framer Motion`
 
 ---
 
-# Technology
-
-### Languages
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-
-### Backend & APIs
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-111111?style=flat-square)
-
-### Databases
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
-
-### Data & AI
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-### Mobile
-
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-
-### Infrastructure & Tools
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
----
-
-# Engineering Approach
+## Engineering Approach
 
 ```text
-Real Business Problem
-        ↓
-Understand the Workflow
-        ↓
-Design the System
-        ↓
-Database + API
-        ↓
-Frontend + UX
-        ↓
-Automation
-        ↓
-Deployment
-        ↓
-Monitor + Improve
+Real Business Problem → Understand the Workflow → Design the System
+→ Database + API → Frontend + UX → Automation → Deployment → Monitor + Improve
+```
+
+<p align="center">
+  <a href="https://safedijital.com"><img src="./assets/footer-signal.svg" alt="Building useful software with Safe Dijital — safedijital.com" width="100%"></a>
+</p>
