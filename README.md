@@ -1,224 +1,141 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Veli Baran Aslan" width="100%">
+  <img src="./assets/hero.svg" alt="Veli Baran Aslan — Software Developer" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/BaranAsln0734">
-    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
+  <a href="https://github.com/BaranAsln0734"><img src="https://img.shields.io/badge/GitHub-BaranAsln0734-0D1117?style=for-the-badge&logo=github&logoColor=39D353" alt="GitHub"></a>
+  <a href="https://safedijital.com"><img src="https://img.shields.io/badge/Building-Safe_Dijital-0D1117?style=for-the-badge&logo=vercel&logoColor=39D353" alt="Safe Dijital"></a>
+  <img src="https://komarev.com/ghpvc/?username=BaranAsln0734&style=for-the-badge&color=238636&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
-# Veli Baran Aslan
-
-### Software Developer · Full-Stack Builder · SaaS & Business Systems
-
-I build software around real business problems.
-
-My work spans full-stack web applications, business management systems, APIs, automation, data products and machine learning.
-
-I enjoy taking a real-world workflow, understanding how it actually works, designing the system behind it, and turning it into software that can be used in production.
+<h3 align="center">I turn real-world workflows into software.</h3>
+<p align="center">Full-Stack Development · SaaS & Business Systems · Data Science & AI</p>
 
 ---
 
-## What I Build
+## $ whoami
 
-| Area | Focus |
-|---|---|
-| 🌐 Web Platforms | Production-oriented websites and web applications |
-| ⚙️ Business Software | CRM, service management, customer and workflow systems |
-| 🔌 APIs & Backend | REST APIs, authentication, databases and integrations |
-| 📊 Data & AI | Machine learning, analytics, prediction and explainability |
-| 📱 Mobile | Cross-platform applications and Android builds |
-| 🚀 Automation | Business processes, SEO automation and internal tooling |
+I'm a software developer focused on building practical products for real businesses — from operational platforms and APIs to data-driven applications.
 
----
+I enjoy working across the stack: understanding a business problem, modelling its workflows, designing the database and API, building the interface, and shipping a maintainable product.
 
-## Featured Projects
-
-### ⚡ Cvspower
-
-A business-oriented generator and service management platform.
-
-**Focus:**
-- Customer management
-- Service / work-order workflows
-- Reporting
-- PDF generation
-- QR systems
-- Maps and location features
-- Authentication and authorization
-- PostgreSQL / SQLite
-- React + TypeScript
-- Node.js / Express
-- Capacitor / Android
-
-> A real-world full-stack system designed around an operational business workflow.
+- **Building:** business software, vertical SaaS products, internal tools and web platforms.
+- **Exploring:** machine learning, explainable AI, data analysis and API-first systems.
+- **Approach:** solve the workflow first; choose the technology to fit the problem.
 
 ---
 
-### 🌐 Business Web Platforms
+## $ dashboard
 
-I build production websites and digital platforms for real businesses across multiple industries.
-
-Projects include:
-
-- **Cvspower**
-- **Akan Enerji**
-- **Delfin Elektrik**
-- **KlimaServis**
-- **Erden Konveyör**
-- **OtoServis**
-- **Acil Jeneratör Servisi**
-- **Lidersan Elektrik**
-
-Typical stack:
-
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Supabase`
-
-I also work on:
-
-- Technical SEO
-- Indexing automation
-- Google APIs
-- Performance
-- Analytics
-- Responsive UI
-- Production deployment
+<p align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=BaranAsln0734&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics">
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BaranAsln0734&layout=compact&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9&langs_count=8" alt="Most used languages">
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=BaranAsln0734&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="GitHub contribution streak">
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BaranAsln0734&bg_color=0D1117&color=C9D1D9&line=39D353&point=7CFF91&area=true&area_color=238636&hide_border=true" alt="Contribution activity graph" width="100%">
+</p>
 
 ---
 
-### 🏢 Business Management Systems
+## $ ls ./projects
 
-I am developing reusable software concepts for different service-based industries.
+A selection of repositories from my software and data work.
 
-The goal is to turn common business workflows into modular software systems that can be adapted to different companies.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/BaranAsln0734/SafeJenerator">SafeJenerator</a></h3>
+      <p>Generator-sector software and operational workflows. Part of my work on purpose-built business management systems.</p>
+      <sub>Business Software · Service Operations · SaaS</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧾 <a href="https://github.com/BaranAsln0734/SafeFatura">SafeFatura</a></h3>
+      <p>Invoice and reporting application with a React frontend and FastAPI backend.</p>
+      <sub>React · FastAPI · Business Automation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤝 <a href="https://github.com/BaranAsln0734/SafeTeklif">SafeTeklif</a></h3>
+      <p>Offer and quotation workflow software for business-to-business processes.</p>
+      <sub>B2B · Workflow · SaaS</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="https://github.com/BaranAsln0734/churn-prediction">Customer Churn Prediction</a></h3>
+      <p>An end-to-end ML pipeline covering EDA, feature engineering, model comparison, SHAP explainability, API and dashboard.</p>
+      <sub>Python · Scikit-learn · XGBoost · SHAP · FastAPI · Streamlit</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏢 <a href="https://github.com/BaranAsln0734/SafeApartman">SafeApartman</a></h3>
+      <p>Apartment and building management software concept, focused on bringing recurring management workflows into one system.</p>
+      <sub>React · TypeScript · Node.js · Prisma</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ <a href="https://github.com/BaranAsln0734/SafeAsansor">SafeAsansor</a></h3>
+      <p>A vertical software project for the elevator-services domain.</p>
+      <sub>Industry Software · Service Workflows</sub>
+    </td>
+  </tr>
+</table>
 
-Examples include:
+### Business platforms & client work
 
-- Customer management
-- Service tracking
-- Work orders
-- Employee workflows
-- Document generation
-- Reporting
-- Notifications
-- Business dashboards
+I also build websites and management systems for businesses in different industries. The repositories include:
 
----
-
-### 🏠 Apartment Management
-
-A full-stack apartment / building management system.
-
-**Stack:**
-
-`React` · `Vite` · `TypeScript` · `Tailwind CSS` · `Node.js` · `Express` · `Prisma`
-
-The project focuses on turning building management workflows into a centralized digital system.
-
----
-
-### 📊 Customer Churn Prediction
-
-An end-to-end machine learning project for customer churn analysis.
-
-**Pipeline:**
-
-`Data → EDA → Preprocessing → Feature Engineering → SMOTE → Model Training → Explainability → API → Dashboard`
-
-Technologies:
-
-`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `XGBoost` · `SHAP` · `FastAPI` · `Streamlit`
-
-The project includes:
-
-- Exploratory data analysis
-- Feature engineering
-- Class balancing
-- Multiple ML models
-- Model comparison
-- SHAP explainability
-- Business impact analysis
-- REST API
-- Interactive dashboard
-- Automated tests
-- Docker support
+- **Management systems:** [CvspowerMys](https://github.com/BaranAsln0734/CvspowerMys) · [AkanEnerjiMys](https://github.com/BaranAsln0734/AkanEnerjiMys) · [SafeTakip](https://github.com/BaranAsln0734/SafeTakip) · [KlimaServis](https://github.com/BaranAsln0734/KlimaServis)
+- **Web projects:** [SafeDijitalWebSite](https://github.com/BaranAsln0734/SafeDijitalWebSite) · [cvswebsite](https://github.com/BaranAsln0734/cvswebsite) · [AkanEnerji](https://github.com/BaranAsln0734/AkanEnerji) · [Erden Konveyör](https://github.com/BaranAsln0734/erdemkonveyor) · [OtoServis](https://github.com/BaranAsln0734/otoservis) · [Acil Jeneratör Servisi](https://github.com/BaranAsln0734/aciljeneratorservisi) · [Lidersan Elektrik](https://github.com/BaranAsln0734/LidersanElektrik)
 
 ---
 
-# Technology
+## $ tech --stack
 
-### Languages
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>Frontend & Web</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,html,css" alt="Frontend stack">
+    </td>
+    <td valign="top" width="50%">
+      <strong>Backend & Data</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,postgres,sqlite,prisma,supabase" alt="Backend and data stack">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong>Data Science & AI</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=python,sklearn,tensorflow,pytorch,jupyter" alt="Data science stack">
+    </td>
+    <td valign="top">
+      <strong>Tools & Infrastructure</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=git,github,docker,linux,ubuntu,postman,figma" alt="Tools stack">
+    </td>
+  </tr>
+</table>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-
-### Backend & APIs
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-111111?style=flat-square)
-
-### Databases
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
-
-### Data & AI
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-### Mobile
-
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-
-### Infrastructure & Tools
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+**Also working with:** Pandas · NumPy · XGBoost · SHAP · Streamlit · Capacitor · Android · REST APIs
 
 ---
 
-# Engineering Approach
+## $ engineering --workflow
 
-```text
-Real Business Problem
-        ↓
-Understand the Workflow
-        ↓
-Design the System
-        ↓
-Database + API
-        ↓
-Frontend + UX
-        ↓
-Automation
-        ↓
-Deployment
-        ↓
-Monitor + Improve
+<p align="center">
+  <img src="https://img.shields.io/badge/01-Understand_the_problem-17351F?style=flat-square&labelColor=0D1117">
+  <img src="https://img.shields.io/badge/02-Model_the_workflow-1C4828?style=flat-square&labelColor=0D1117">
+  <img src="https://img.shields.io/badge/03-Design_data_%26_APIs-226331?style=flat-square&labelColor=0D1117">
+  <img src="https://img.shields.io/badge/04-Build_the_product-2B7A3D?style=flat-square&labelColor=0D1117">
+  <img src="https://img.shields.io/badge/05-Ship_%26_improve-39D353?style=flat-square&labelColor=0D1117">
+</p>
+
+I care about software that is useful beyond a demo: clear domain logic, maintainable architecture, reliable data flows and interfaces people can actually use.
+
+---
+
+<p align="center">
+  <strong>Building useful things, one system at a time.</strong><br>
+  <a href="https://github.com/BaranAsln0734">Explore my repositories</a> · <a href="https://safedijital.com">Safe Dijital</a>
+</p>
