@@ -49,14 +49,14 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
   </tr>
   <tr>
     <td width="50%"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></td>
-    <td width="50%"><img src="./assets/project-apartman.svg" alt="SafeApartman — apartment and building management" width="100%"></td>
+    <td width="50%"><img src="./assets/project-safetakip.svg" alt="SafeTakip — process, task and status tracking" width="100%"></td>
   </tr>
 </table>
 
 - **SafeServis** — field service, work orders, QR tracking, maps, PDF reports · custom-deployed for **Cvspower**
 - **SafeTeklif** — quotation management, PDF generation, online customer approval
 - **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
-- **SafeApartman** — residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
+- **SafeTakip** — process, task and status tracking, notifications and team visibility
 
 ### [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)
 
