@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://safedijital.com">
-    <img src="https://img.shields.io/badge/Safe_Dijital-safedijital.com-39D353?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Safe Dijital">
+    <img src="https://img.shields.io/badge/Safe_Dijital-safedijital.com-181714?style=for-the-badge&logo=googlechrome&logoColor=f3efe6" alt="Safe Dijital">
   </a>
 </p>
 
@@ -21,18 +21,18 @@ My work spans **full-stack web apps, business management systems, APIs, automati
 
 | Area | Focus |
 |---|---|
-| 🌐 Web Platforms | Production websites and web applications |
-| ⚙️ Business Software | CRM, service management, quotation and workflow systems |
-| 🔌 APIs & Backend | REST APIs, authentication, databases and integrations |
-| 📊 Data & AI | Machine learning, analytics, prediction and explainability |
-| 📱 Mobile | Cross-platform apps and Android builds |
-| 🚀 Automation | Business processes, SEO automation and internal tooling |
+| Web Platforms | Production websites and web applications |
+| Business Software | CRM, service management, quotation and workflow systems |
+| APIs & Backend | REST APIs, authentication, databases and integrations |
+| Data & AI | Machine learning, analytics, prediction and explainability |
+| Mobile | Cross-platform apps and Android builds |
+| Automation | Business processes, SEO automation and internal tooling |
 
 ---
 
 ## Featured Projects
 
-### ⚡ Cvspower
+### Cvspower
 
 A generator sales & service management platform built around a real operational workflow.
 
@@ -40,7 +40,7 @@ A generator sales & service management platform built around a real operational 
 - **Platform:** authentication & role-based access, web + Android (Capacitor)
 - **Stack:** `React` · `TypeScript` · `Node.js` · `Express` · `PostgreSQL` / `SQLite` · `Capacitor`
 
-### 🧩 Safe Dijital Products
+### Safe Dijital Products
 
 Modular business software under [Safe Dijital](https://safedijital.com): common service-industry workflows turned into products that can be adapted to different companies.
 
@@ -60,7 +60,7 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 - **SafeServis** — service tracking, work orders, employee workflows and notifications
 - **SafeApartman** — residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
 
-### 📊 [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)
+### [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)
 
 An end-to-end machine learning project, from raw data to an API and dashboard.
 
@@ -69,7 +69,7 @@ An end-to-end machine learning project, from raw data to an API and dashboard.
 Includes multiple model comparison, SHAP explainability, business impact analysis, automated tests and Docker support.
 **Stack:** `Python` · `Pandas` · `Scikit-learn` · `XGBoost` · `SHAP` · `FastAPI` · `Streamlit`
 
-### 🌐 Client Web Platforms
+### Client Web Platforms
 
 Production websites and digital platforms for real businesses, live and maintained.
 

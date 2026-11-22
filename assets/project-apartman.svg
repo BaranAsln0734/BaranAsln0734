@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#132019"/><stop offset="1" stop-color="#0D1117"/></linearGradient><linearGradient id="g"><stop stop-color="#39D353" stop-opacity="0"/><stop offset=".5" stop-color="#39D353"/><stop offset="1" stop-color="#39D353" stop-opacity="0"/></linearGradient><style>.m{font:12px ui-monospace,monospace;letter-spacing:2px}.s{font:700 27px Inter,Arial,sans-serif}.d{font:14px Inter,Arial,sans-serif}</style></defs><rect width="560" height="230" rx="18" fill="url(#b)"/><rect x=".75" y=".75" width="558.5" height="228.5" rx="17.25" stroke="#39D353" stroke-opacity=".35"/><path d="M0 182H560" stroke="#39D353" stroke-opacity=".12"/><text x="30" y="42" class="m" fill="#39D353">PROPERTY MANAGEMENT</text><text x="30" y="94" class="s" fill="#F0F6FC">SafeApartman</text><text x="30" y="128" class="d" fill="#AAB5AC">Residents, dues and expenses</text><text x="30" y="151" class="d" fill="#AAB5AC">Maintenance requests · Announcements</text><path d="M30 194H520" stroke="url(#g)" stroke-width="2" stroke-dasharray="8 10"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="7s" repeatCount="indefinite"/></path><circle cx="520" cy="194" r="4" fill="#39D353"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></circle><g transform="translate(484 26)"><rect width="44" height="44" rx="12" fill="#0A160D" stroke="#39D353" stroke-opacity=".35"/><text x="22" y="29" text-anchor="middle" font-size="20" fill="#39D353">⌂</text></g><text x="30" y="215" class="m" fill="#718275" font-size="9">REACT  /  NODE  /  PRISMA</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" role="img" aria-label="No. 03 — SafeApartman, apartment and building management">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="13" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.32  0 0 0 0 0.28  0 0 0 0.55 -0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', 'Liberation Serif', serif; }
+    .mono  { font-family: Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; }
+  </style>
+  <rect width="560" height="260" fill="#e2ddd3"/>
+  <rect width="560" height="260" filter="url(#grain)" opacity="0.5"/>
+  <line x1="30" y1="30" x2="530" y2="30" stroke="#181714" stroke-width="3"/>
+  <text class="mono" x="30" y="58" font-size="15" letter-spacing="3" fill="#6f695e">PROPERTY MANAGEMENT</text>
+  <text class="serif" x="530" y="58" text-anchor="end" font-size="19" font-style="italic" fill="#6f695e">No. 03</text>
+  <line x1="30" y1="72" x2="530" y2="72" stroke="#55514a" stroke-width="1.2"/>
+  <text class="serif" x="28" y="126" font-size="44" font-weight="700" letter-spacing="-1" fill="#181714">SafeApartman</text>
+  <text class="serif" x="30" y="162" font-size="22" font-style="italic" fill="#4a463f">residents, dues and expenses.</text>
+  <text class="serif" x="30" y="192" font-size="19" fill="#181714">Maintenance requests · announcements</text>
+  <rect x="0" y="214" width="560" height="46" fill="#151412"/>
+  <text class="mono" x="30" y="243" font-size="14" letter-spacing="2.5" fill="#b5ad9c">REACT / NODE / PRISMA</text>
+  <text class="mono" x="530" y="243" text-anchor="end" font-size="14" letter-spacing="2.5" fill="#f3efe6">SAFE DIJITAL</text>
+</svg>
