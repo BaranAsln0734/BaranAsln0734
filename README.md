@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://safedijital.com"><img src="./assets/safe-dijital-mark.png" width="52" alt="Safe Dijital brand mark"/></a>
+  <a href="https://safedijital.com"><img src="./assets/safe-dijital-mark.svg" width="52" alt="Safe Dijital brand mark"/></a>
   <br/><strong>SAFE DIJITAL</strong><br/><sub>Custom Software · Vertical SaaS · Business Automation</sub>
 </p>
 
