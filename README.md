@@ -12,6 +12,12 @@
   <a href="https://safedijital.com">
     <img src="https://img.shields.io/badge/Safe_Dijital-safedijital.com-181714?style=for-the-badge&logo=googlechrome&logoColor=f3efe6" alt="Safe Dijital">
   </a>
+  <a href="mailto:info@safedijital.com">
+    <img src="https://img.shields.io/badge/Business-info%40safedijital.com-181714?style=for-the-badge&logo=maildotru&logoColor=f3efe6" alt="info@safedijital.com">
+  </a>
+  <a href="mailto:velibaranaslan9@gmail.com">
+    <img src="https://img.shields.io/badge/Personal-velibaranaslan9%40gmail.com-181714?style=for-the-badge&logo=gmail&logoColor=f3efe6" alt="velibaranaslan9@gmail.com">
+  </a>
 </p>
 
 I build software around real business problems: taking a real-world workflow, understanding how it actually works, designing the system behind it and turning it into software that runs in production.
