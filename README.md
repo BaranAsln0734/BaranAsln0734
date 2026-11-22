@@ -44,12 +44,12 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 
 <table>
   <tr>
-    <td width="50%"><img src="./assets/project-safeservis.svg" alt="SafeServis — field service and work-order platform" width="100%"></td>
-    <td width="50%"><img src="./assets/project-safeteklif.svg" alt="SafeTeklif — quotation and offer management" width="100%"></td>
+    <td width="50%"><a href="https://safedijital.com"><img src="./assets/project-safeservis.svg" alt="SafeServis — field service and work-order platform" width="100%"></a></td>
+    <td width="50%"><a href="https://safedijital.com"><img src="./assets/project-safeteklif.svg" alt="SafeTeklif — quotation and offer management" width="100%"></a></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></td>
-    <td width="50%"><img src="./assets/project-safetakip.svg" alt="SafeTakip — process, task and status tracking" width="100%"></td>
+    <td width="50%"><a href="https://safedijital.com"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></a></td>
+    <td width="50%"><a href="https://safedijital.com"><img src="./assets/project-safetakip.svg" alt="SafeTakip — process, task and status tracking" width="100%"></a></td>
   </tr>
 </table>
 
@@ -58,6 +58,8 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 - **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
 - **SafeTakip** — process, task and status tracking, notifications and team visibility
 - **SafeApartman** — apartment & building management: residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
+
+> Live demos and product walkthroughs are available at **[safedijital.com](https://safedijital.com)**.
 
 ### [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)
 
@@ -73,7 +75,7 @@ Includes multiple model comparison, SHAP explainability, business impact analysi
 Production websites and digital platforms for real businesses, live and maintained.
 
 <p align="center">
-  <img src="./assets/panel-client-platforms.svg" alt="Client Web Platforms — Cvspower, Akan Enerji, Delfin Elektrik, Lidersan Elektrik, Acil Jeneratör Servisi, KlimaServis, OtoServis, Erden Konveyör" width="100%">
+  <a href="https://safedijital.com"><img src="./assets/panel-client-platforms.svg" alt="Client Web Platforms — Cvspower, Akan Enerji, Delfin Elektrik, Lidersan Elektrik, Acil Jeneratör Servisi, KlimaServis, OtoServis, Erden Konveyör" width="100%"></a>
 </p>
 
 ---
@@ -88,10 +90,9 @@ Production websites and digital platforms for real businesses, live and maintain
 
 ## Engineering Approach
 
-```text
-Real Business Problem → Understand the Workflow → Design the System
-→ Database + API → Frontend + UX → Automation → Deployment → Monitor + Improve
-```
+<p align="center">
+  <img src="./assets/panel-engineering-approach.svg" alt="Engineering Approach — Discover, Architect, Build, Operate" width="100%">
+</p>
 
 <p align="center">
   <a href="https://safedijital.com"><img src="./assets/footer-signal.svg" alt="Building useful software with Safe Dijital — safedijital.com" width="100%"></a>

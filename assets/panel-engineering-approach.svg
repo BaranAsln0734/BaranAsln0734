@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 290" width="1500" height="290" role="img" aria-label="Engineering Approach — Discover, Architect, Build, Operate">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="29" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.32  0 0 0 0 0.28  0 0 0 0.55 -0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', 'Liberation Serif', serif; }
+    .mono  { font-family: Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; }
+  </style>
+
+  <!-- paper -->
+  <rect width="1500" height="290" fill="#e2ddd3"/>
+  <rect width="1500" height="290" filter="url(#grain)" opacity="0.5"/>
+
+  <!-- masthead -->
+  <line x1="90" y1="40" x2="1410" y2="40" stroke="#181714" stroke-width="3"/>
+  <text class="mono" x="90" y="72" font-size="16" letter-spacing="4" fill="#6f695e">— ENGINEERING APPROACH</text>
+  <text class="mono" x="1410" y="72" text-anchor="end" font-size="16" letter-spacing="3.5" fill="#6f695e">WORKFLOW TO PRODUCTION</text>
+  <line x1="90" y1="88" x2="1410" y2="88" stroke="#55514a" stroke-width="1.4"/>
+
+  <!-- timeline rail -->
+  <line x1="98" y1="132" x2="1088" y2="132" stroke="#55514a" stroke-width="1.6"/>
+  <circle cx="98" cy="132" r="6" fill="#181714"/>
+  <circle cx="428" cy="132" r="6" fill="#181714"/>
+  <circle cx="758" cy="132" r="6" fill="#181714"/>
+  <circle cx="1088" cy="132" r="6" fill="#181714"/>
+
+  <!-- step 01 -->
+  <text class="mono" x="90" y="114" font-size="14" letter-spacing="3" fill="#6f695e">01</text>
+  <text class="serif" x="90" y="178" font-size="28" font-weight="700" fill="#181714">Discover</text>
+  <text class="serif" x="90" y="210" font-size="18" fill="#4a463f">Real business problem</text>
+  <text class="serif" x="90" y="236" font-size="18" fill="#4a463f">understand the workflow</text>
+
+  <!-- step 02 -->
+  <text class="mono" x="420" y="114" font-size="14" letter-spacing="3" fill="#6f695e">02</text>
+  <text class="serif" x="420" y="178" font-size="28" font-weight="700" fill="#181714">Architect</text>
+  <text class="serif" x="420" y="210" font-size="18" fill="#4a463f">Design the system</text>
+  <text class="serif" x="420" y="236" font-size="18" fill="#4a463f">database + API</text>
+
+  <!-- step 03 -->
+  <text class="mono" x="750" y="114" font-size="14" letter-spacing="3" fill="#6f695e">03</text>
+  <text class="serif" x="750" y="178" font-size="28" font-weight="700" fill="#181714">Build</text>
+  <text class="serif" x="750" y="210" font-size="18" fill="#4a463f">Frontend + UX</text>
+  <text class="serif" x="750" y="236" font-size="18" fill="#4a463f">automation &amp; tooling</text>
+
+  <!-- step 04 -->
+  <text class="mono" x="1080" y="114" font-size="14" letter-spacing="3" fill="#6f695e">04</text>
+  <text class="serif" x="1080" y="178" font-size="28" font-weight="700" fill="#181714">Operate</text>
+  <text class="serif" x="1080" y="210" font-size="18" fill="#4a463f">Production deployment</text>
+  <text class="serif" x="1080" y="236" font-size="18" fill="#4a463f">monitor + improve</text>
+
+  <!-- bottom rule -->
+  <line x1="90" y1="268" x2="1410" y2="268" stroke="#181714" stroke-width="2.5"/>
+</svg>
