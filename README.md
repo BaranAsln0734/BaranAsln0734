@@ -22,14 +22,9 @@ My work spans **full-stack web apps, business management systems, APIs, automati
 
 ## What I Build
 
-| Area | Focus |
-|---|---|
-| Web Platforms | Production websites and web applications |
-| Business Software | CRM, service management, quotation and workflow systems |
-| APIs & Backend | REST APIs, authentication, databases and integrations |
-| Data & AI | Machine learning, analytics, prediction and explainability |
-| Mobile | Cross-platform apps and Android builds |
-| Automation | Business processes, SEO automation and internal tooling |
+<p align="center">
+  <img src="./assets/panel-what-i-build.svg" alt="What I Build — Web Platforms, Business Software, APIs & Backend, Data & AI, Mobile, Automation" width="100%">
+</p>
 
 ---
 
@@ -76,19 +71,9 @@ Includes multiple model comparison, SHAP explainability, business impact analysi
 
 Production websites and digital platforms for real businesses, live and maintained.
 
-| Project | Industry |
-|---|---|
-| **Cvspower** | Generators & power systems |
-| **Akan Enerji** | Energy |
-| **Delfin Elektrik** | Electrical services |
-| **Lidersan Elektrik** | Electrical services |
-| **Acil Jeneratör Servisi** | Generator service |
-| **KlimaServis** | HVAC service |
-| **OtoServis** | Automotive service |
-| **Erden Konveyör** | Industrial conveyors |
-
-**Stack:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Supabase`
-**Also:** technical SEO, indexing automation with Google APIs, performance, analytics and production deployment.
+<p align="center">
+  <img src="./assets/panel-client-platforms.svg" alt="Client Web Platforms — Cvspower, Akan Enerji, Delfin Elektrik, Lidersan Elektrik, Acil Jeneratör Servisi, KlimaServis, OtoServis, Erden Konveyör" width="100%">
+</p>
 
 ---
 

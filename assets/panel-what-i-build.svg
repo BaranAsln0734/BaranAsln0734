@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 440" width="1500" height="440" role="img" aria-label="What I Build — Web Platforms, Business Software, APIs and Backend, Data and AI, Mobile, Automation">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="17" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.32  0 0 0 0 0.28  0 0 0 0.55 -0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', 'Liberation Serif', serif; }
+    .mono  { font-family: Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; }
+  </style>
+
+  <!-- paper -->
+  <rect width="1500" height="440" fill="#e2ddd3"/>
+  <rect width="1500" height="440" filter="url(#grain)" opacity="0.5"/>
+
+  <!-- masthead -->
+  <line x1="90" y1="42" x2="1410" y2="42" stroke="#181714" stroke-width="3"/>
+  <text class="mono" x="90" y="75" font-size="16" letter-spacing="4" fill="#6f695e">— WHAT I BUILD</text>
+  <text class="mono" x="1410" y="75" text-anchor="end" font-size="16" letter-spacing="3.5" fill="#6f695e">SIX CORE DISCIPLINES</text>
+  <line x1="90" y1="92" x2="1410" y2="92" stroke="#55514a" stroke-width="1.4"/>
+
+  <!-- grid dividers -->
+  <line x1="530" y1="112" x2="530" y2="402" stroke="#d0cabf" stroke-width="1.6"/>
+  <line x1="970" y1="112" x2="970" y2="402" stroke="#d0cabf" stroke-width="1.6"/>
+  <line x1="90" y1="256" x2="1410" y2="256" stroke="#d0cabf" stroke-width="1.6"/>
+
+  <!-- row 1, col 1 -->
+  <text class="mono" x="90" y="136" font-size="15" letter-spacing="3" fill="#6f695e">01</text>
+  <text class="serif" x="90" y="174" font-size="28" font-weight="700" fill="#181714">Web Platforms</text>
+  <text class="serif" x="90" y="206" font-size="19" fill="#4a463f">Production websites and</text>
+  <text class="serif" x="90" y="232" font-size="19" fill="#4a463f">full-stack web applications.</text>
+
+  <!-- row 1, col 2 -->
+  <text class="mono" x="564" y="136" font-size="15" letter-spacing="3" fill="#6f695e">02</text>
+  <text class="serif" x="564" y="174" font-size="28" font-weight="700" fill="#181714">Business Software</text>
+  <text class="serif" x="564" y="206" font-size="19" fill="#4a463f">CRM, service management,</text>
+  <text class="serif" x="564" y="232" font-size="19" fill="#4a463f">quotation and workflow systems.</text>
+
+  <!-- row 1, col 3 -->
+  <text class="mono" x="1004" y="136" font-size="15" letter-spacing="3" fill="#6f695e">03</text>
+  <text class="serif" x="1004" y="174" font-size="28" font-weight="700" fill="#181714">APIs &amp; Backend</text>
+  <text class="serif" x="1004" y="206" font-size="19" fill="#4a463f">REST APIs, authentication,</text>
+  <text class="serif" x="1004" y="232" font-size="19" fill="#4a463f">databases and integrations.</text>
+
+  <!-- row 2, col 1 -->
+  <text class="mono" x="90" y="294" font-size="15" letter-spacing="3" fill="#6f695e">04</text>
+  <text class="serif" x="90" y="332" font-size="28" font-weight="700" fill="#181714">Data &amp; AI</text>
+  <text class="serif" x="90" y="364" font-size="19" fill="#4a463f">Machine learning, analytics,</text>
+  <text class="serif" x="90" y="390" font-size="19" fill="#4a463f">prediction and explainability.</text>
+
+  <!-- row 2, col 2 -->
+  <text class="mono" x="564" y="294" font-size="15" letter-spacing="3" fill="#6f695e">05</text>
+  <text class="serif" x="564" y="332" font-size="28" font-weight="700" fill="#181714">Mobile</text>
+  <text class="serif" x="564" y="364" font-size="19" fill="#4a463f">Cross-platform applications</text>
+  <text class="serif" x="564" y="390" font-size="19" fill="#4a463f">and production Android builds.</text>
+
+  <!-- row 2, col 3 -->
+  <text class="mono" x="1004" y="294" font-size="15" letter-spacing="3" fill="#6f695e">06</text>
+  <text class="serif" x="1004" y="332" font-size="28" font-weight="700" fill="#181714">Automation</text>
+  <text class="serif" x="1004" y="364" font-size="19" fill="#4a463f">Business processes, technical</text>
+  <text class="serif" x="1004" y="390" font-size="19" fill="#4a463f">SEO and internal tooling.</text>
+
+  <!-- bottom rule -->
+  <line x1="90" y1="418" x2="1410" y2="418" stroke="#181714" stroke-width="2.5"/>
+</svg>
