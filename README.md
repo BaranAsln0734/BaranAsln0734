@@ -47,7 +47,7 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 <table>
   <tr>
     <td width="50%"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></td>
-    <td width="50%"><img src="./assets/project-teklifpro.svg" alt="TeklifPro — quotation and offer management" width="100%"></td>
+    <td width="50%"><img src="./assets/project-safeteklif.svg" alt="SafeTeklif — quotation and offer management" width="100%"></td>
   </tr>
   <tr>
     <td width="50%"><img src="./assets/project-apartman.svg" alt="SafeApartman — apartment and building management" width="100%"></td>
@@ -56,7 +56,7 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 </table>
 
 - **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
-- **TeklifPro** — quotation management, PDF generation, online customer approval
+- **SafeTeklif** — quotation management, PDF generation, online customer approval
 - **SafeServis** — service tracking, work orders, employee workflows and notifications
 - **SafeApartman** — residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
 
