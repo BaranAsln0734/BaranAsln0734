@@ -57,6 +57,7 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 - **SafeTeklif** — quotation management, PDF generation, online customer approval
 - **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
 - **SafeTakip** — process, task and status tracking, notifications and team visibility
+- **SafeApartman** — apartment & building management: residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
 
 ### [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)
 
