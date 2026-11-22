@@ -15,6 +15,13 @@
   <text class="mono" x="30" y="58" font-size="15" letter-spacing="3" fill="#6f695e">BUSINESS SOFTWARE</text>
   <text class="serif" x="530" y="58" text-anchor="end" font-size="19" font-style="italic" fill="#6f695e">No. 03</text>
   <line x1="30" y1="72" x2="530" y2="72" stroke="#55514a" stroke-width="1.2"/>
+  <g transform="translate(458, 94)" fill="none" stroke="#181714" stroke-width="1.6" opacity="0.55">
+    <path d="M0 4 C0 2 2 0 4 0 H68 C70 0 72 2 72 4 V86 L62 80 L52 86 L42 80 L32 86 L22 80 L12 86 L0 80 Z" stroke="#6f695e"/>
+    <line x1="14" y1="22" x2="58" y2="22"/>
+    <line x1="14" y1="36" x2="48" y2="36" stroke-opacity="0.7"/>
+    <line x1="14" y1="50" x2="58" y2="50" stroke-opacity="0.5"/>
+    <line x1="36" y1="66" x2="58" y2="66" stroke-width="2"/>
+  </g>
   <text class="serif" x="28" y="126" font-size="44" font-weight="700" letter-spacing="-1" fill="#181714">SafeFatura</text>
   <text class="serif" x="30" y="162" font-size="22" font-style="italic" fill="#4a463f">invoice and reporting workflows.</text>
   <text class="serif" x="30" y="192" font-size="19" fill="#181714">React interface · FastAPI backend</text>
