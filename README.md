@@ -30,9 +30,9 @@ My work spans **full-stack web apps, business management systems, APIs, automati
 
 ## Featured Projects
 
-### Cvspower
+### SafeServis · Custom Deployment for Cvspower
 
-A generator sales & service management platform built around a real operational workflow.
+A field-service and operations management platform built under [Safe Dijital](https://safedijital.com), custom-tailored and deployed in production for **Cvspower** (generator sales & service workflows).
 
 - **Operations:** customers, service / work orders, reporting, PDF documents, QR tracking, maps & locations
 - **Platform:** authentication & role-based access, web + Android (Capacitor)
@@ -44,18 +44,18 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
 
 <table>
   <tr>
-    <td width="50%"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></td>
+    <td width="50%"><img src="./assets/project-safeservis.svg" alt="SafeServis — field service and work-order platform" width="100%"></td>
     <td width="50%"><img src="./assets/project-safeteklif.svg" alt="SafeTeklif — quotation and offer management" width="100%"></td>
   </tr>
   <tr>
+    <td width="50%"><img src="./assets/project-safefatura.svg" alt="SafeFatura — invoice and reporting workflows" width="100%"></td>
     <td width="50%"><img src="./assets/project-apartman.svg" alt="SafeApartman — apartment and building management" width="100%"></td>
-    <td width="50%"><a href="https://github.com/BaranAsln0734/churn-prediction"><img src="./assets/project-churn.svg" alt="Customer Churn Prediction" width="100%"></a></td>
   </tr>
 </table>
 
-- **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
+- **SafeServis** — field service, work orders, QR tracking, maps, PDF reports · custom-deployed for **Cvspower**
 - **SafeTeklif** — quotation management, PDF generation, online customer approval
-- **SafeServis** — service tracking, work orders, employee workflows and notifications
+- **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
 - **SafeApartman** — residents, dues, expenses, maintenance requests · `React` · `Vite` · `Node.js` · `Express` · `Prisma`
 
 ### [Customer Churn Prediction](https://github.com/BaranAsln0734/churn-prediction)

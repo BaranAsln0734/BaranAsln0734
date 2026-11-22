@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" role="img" aria-label="No. 01 — SafeFatura, invoice and reporting workflows">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" role="img" aria-label="No. 03 — SafeFatura, invoice and reporting workflows">
   <defs>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="n"/>
@@ -13,7 +13,7 @@
   <rect width="560" height="260" filter="url(#grain)" opacity="0.5"/>
   <line x1="30" y1="30" x2="530" y2="30" stroke="#181714" stroke-width="3"/>
   <text class="mono" x="30" y="58" font-size="15" letter-spacing="3" fill="#6f695e">BUSINESS SOFTWARE</text>
-  <text class="serif" x="530" y="58" text-anchor="end" font-size="19" font-style="italic" fill="#6f695e">No. 01</text>
+  <text class="serif" x="530" y="58" text-anchor="end" font-size="19" font-style="italic" fill="#6f695e">No. 03</text>
   <line x1="30" y1="72" x2="530" y2="72" stroke="#55514a" stroke-width="1.2"/>
   <text class="serif" x="28" y="126" font-size="44" font-weight="700" letter-spacing="-1" fill="#181714">SafeFatura</text>
   <text class="serif" x="30" y="162" font-size="22" font-style="italic" fill="#4a463f">invoice and reporting workflows.</text>
