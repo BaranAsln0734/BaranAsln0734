@@ -30,9 +30,9 @@ My work spans **full-stack web apps, business management systems, APIs, automati
 
 ## Featured Projects
 
-### SafeServis · Custom Deployment for Cvspower
+### SafeServis
 
-A field-service and operations management platform built under [Safe Dijital](https://safedijital.com), custom-tailored and deployed in production for **Cvspower** (generator sales & service workflows).
+A field-service and operations management platform built under [Safe Dijital](https://safedijital.com) for service-based businesses.
 
 - **Operations:** customers, service / work orders, reporting, PDF documents, QR tracking, maps & locations
 - **Platform:** authentication & role-based access, web + Android (Capacitor)
@@ -53,7 +53,7 @@ Modular business software under [Safe Dijital](https://safedijital.com): common 
   </tr>
 </table>
 
-- **SafeServis** — field service, work orders, QR tracking, maps, PDF reports · custom-deployed for **Cvspower**
+- **SafeServis** — field service, work orders, QR tracking, maps, PDF reports · web & Android
 - **SafeTeklif** — quotation management, PDF generation, online customer approval
 - **SafeFatura** — invoice and reporting workflows · `React` · `FastAPI`
 - **SafeTakip** — process, task and status tracking, notifications and team visibility

@@ -34,7 +34,7 @@
   <!-- title & copy -->
   <text class="serif" x="28" y="126" font-size="44" font-weight="700" letter-spacing="-1" fill="#181714">SafeServis</text>
   <text class="serif" x="30" y="162" font-size="21" font-style="italic" fill="#4a463f">work orders, QR, maps &amp; PDF reports.</text>
-  <text class="serif" x="30" y="192" font-size="18" fill="#181714">Web &amp; Android · live in production for Cvspower</text>
+  <text class="serif" x="30" y="192" font-size="18" fill="#181714">Web &amp; Android · role-based field operations</text>
 
   <!-- dark footer bar -->
   <rect x="0" y="214" width="560" height="46" fill="#151412"/>
