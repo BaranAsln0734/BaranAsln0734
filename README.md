@@ -4,7 +4,10 @@
 
 <p align="center">
   <a href="https://github.com/BaranAsln0734">
-    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-BaranAsln0734-181714?style=for-the-badge&logo=github&logoColor=f3efe6" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/veli-baran-aslan-7a0b21301">
+    <img src="https://img.shields.io/badge/LinkedIn-Veli_Baran_Aslan-181714?style=for-the-badge&logo=linkedin&logoColor=f3efe6" alt="LinkedIn">
   </a>
   <a href="https://safedijital.com">
     <img src="https://img.shields.io/badge/Safe_Dijital-safedijital.com-181714?style=for-the-badge&logo=googlechrome&logoColor=f3efe6" alt="Safe Dijital">
