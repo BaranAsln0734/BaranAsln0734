@@ -1,26 +1,52 @@
-<table align="center" border="0" width="100%" cellspacing="0" cellpadding="0">
+<table align="center" width="100%" border="0" cellpadding="22" cellspacing="0" bgcolor="#f4efe4">
 <tr>
-<td bgcolor="#111111" align="left" style="padding:14px 28px;"><strong style="color:#f6f1e7;font-family:Georgia,serif;font-style:italic;letter-spacing:2px;">THE PROFILE</strong></td>
-<td bgcolor="#111111" align="right" style="padding:14px 28px;"><code style="color:#f6f1e7;">VOL. 01 · 2026</code></td>
+<td colspan="3">
+<table width="100%" border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td align="left"><strong>THE PROFILE</strong></td>
+<td align="right"><code>VOL. 01 · MMXXVI · TÜRKİYE</code></td>
 </tr>
 </table>
-
-<table align="center" border="0" width="100%" cellspacing="0" cellpadding="20">
-<tr>
-<td width="58%" valign="top">
-<h1>Building ideas<br/><em>into products.</em></h1>
-<p><strong>Baran Aslan</strong> · Software Developer &amp; SaaS Builder<br/>Based in Türkiye · Building at Safe Dijital</p>
-<blockquote><p>I turn complex business workflows into clear, useful software.</p></blockquote>
-</td>
-<td width="42%" valign="top">
-<h6>— CURRENT FOCUS</h6>
-<p>Custom software<br/>Vertical SaaS products<br/>Business systems &amp; automation</p>
-<h6>— BUILDING AT</h6>
-<p><a href="https://safedijital.com"><strong>Safe Dijital</strong></a><br/>Software for real-world operations</p>
-</td>
-</tr>
-</table>
-
 <hr/>
-
-<p align="center"><code><a href="https://safedijital.com">safedijital.com</a></code> · <code><a href="https://github.com/BaranAsln0734">github.com/BaranAsln0734</a></code></p>
+<h1>Baran Aslan</h1>
+<p><em>Software developer · SaaS builder · turning ideas into products</em></p>
+<hr/>
+</td>
+</tr>
+<tr>
+<td width="34%" valign="top">
+<p><code>— SELECTED WORK</code></p>
+<p><strong><a href="https://github.com/BaranAsln0734/SafeFatura">01 · SafeFatura</a></strong><br/>Digital invoicing workflows</p>
+<p><strong><a href="https://github.com/BaranAsln0734/SafeTeklif">02 · SafeTeklif</a></strong><br/>Quotation and offer management</p>
+<p><strong><a href="https://github.com/BaranAsln0734/SafeApartman">03 · SafeApartman</a></strong><br/>Apartment management software</p>
+</td>
+<td width="33%" valign="top">
+<p><code>— CURRENTLY BUILDING</code></p>
+<p><strong>SafeServis</strong><br/>Service operations and field workflows</p>
+<p><strong>Business systems</strong><br/>Custom ERP and vertical SaaS products</p>
+<p><strong>Data &amp; AI</strong><br/>Machine learning and practical data tools</p>
+</td>
+<td width="33%" valign="top">
+<table width="100%" border="0" cellpadding="14" cellspacing="0" bgcolor="#141210">
+<tr><td>
+<p><strong><code>— ABOUT</code></strong></p>
+<h3><em>Building useful software for real-world problems.</em></h3>
+<p><a href="https://safedijital.com"><strong>Safe Dijital</strong></a></p>
+</td></tr>
+</table>
+<p>Türkiye</p>
+<p><a href="https://safedijital.com">safedijital.com</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<hr/>
+<table width="100%" border="0" cellpadding="4" cellspacing="0">
+<tr>
+<td align="left"><code>SAFEDIJITAL.COM · @BARANASLN0734</code></td>
+<td align="right"><code>SOFTWARE · SAAS · BUSINESS SYSTEMS</code></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
