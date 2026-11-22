@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 470" width="1500" height="470" role="img" aria-label="Technology and Tooling — Languages, Frontend, Backend, Databases, Data and AI, Mobile and Infrastructure">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="23" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.9  0 0 0 0 0.88  0 0 0 0 0.84  0 0 0 0.08 0"/>
+    </filter>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, 'Times New Roman', 'Liberation Serif', serif; }
+    .mono  { font-family: Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; }
+  </style>
+
+  <!-- dark editorial ink canvas -->
+  <rect width="1500" height="470" fill="#151412"/>
+  <rect width="1500" height="470" filter="url(#grain)"/>
+
+  <!-- masthead -->
+  <line x1="90" y1="42" x2="1410" y2="42" stroke="#f3efe6" stroke-width="3"/>
+  <text class="mono" x="90" y="75" font-size="16" letter-spacing="4" fill="#b5ad9c">— TECHNOLOGY &amp; TOOLING</text>
+  <text class="mono" x="1410" y="75" text-anchor="end" font-size="16" letter-spacing="3.5" fill="#b5ad9c">PRODUCTION STACK</text>
+  <line x1="90" y1="92" x2="1410" y2="92" stroke="#3a3732" stroke-width="1.4"/>
+
+  <!-- grid dividers -->
+  <line x1="530" y1="112" x2="530" y2="386" stroke="#2e2b26" stroke-width="1.6"/>
+  <line x1="970" y1="112" x2="970" y2="386" stroke="#2e2b26" stroke-width="1.6"/>
+  <line x1="90" y1="248" x2="1410" y2="248" stroke="#2e2b26" stroke-width="1.6"/>
+
+  <!-- row 1, col 1 -->
+  <text class="mono" x="90" y="138" font-size="15" letter-spacing="3" fill="#b5ad9c">01 · LANGUAGES</text>
+  <text class="serif" x="90" y="182" font-size="23" font-weight="700" fill="#f3efe6">TypeScript · JavaScript</text>
+  <text class="serif" x="90" y="216" font-size="21" fill="#d2ccc0">Python · SQL</text>
+
+  <!-- row 1, col 2 -->
+  <text class="mono" x="564" y="138" font-size="15" letter-spacing="3" fill="#b5ad9c">02 · FRONTEND</text>
+  <text class="serif" x="564" y="182" font-size="23" font-weight="700" fill="#f3efe6">React · Next.js · Vite</text>
+  <text class="serif" x="564" y="216" font-size="21" fill="#d2ccc0">Tailwind CSS · Framer Motion</text>
+
+  <!-- row 1, col 3 -->
+  <text class="mono" x="1004" y="138" font-size="15" letter-spacing="3" fill="#b5ad9c">03 · BACKEND &amp; APIS</text>
+  <text class="serif" x="1004" y="182" font-size="23" font-weight="700" fill="#f3efe6">Node.js · Express</text>
+  <text class="serif" x="1004" y="216" font-size="21" fill="#d2ccc0">FastAPI · REST APIs</text>
+
+  <!-- row 2, col 1 -->
+  <text class="mono" x="90" y="288" font-size="15" letter-spacing="3" fill="#b5ad9c">04 · DATABASES</text>
+  <text class="serif" x="90" y="332" font-size="23" font-weight="700" fill="#f3efe6">PostgreSQL · SQLite</text>
+  <text class="serif" x="90" y="366" font-size="21" fill="#d2ccc0">Prisma · Supabase</text>
+
+  <!-- row 2, col 2 -->
+  <text class="mono" x="564" y="288" font-size="15" letter-spacing="3" fill="#b5ad9c">05 · DATA &amp; AI</text>
+  <text class="serif" x="564" y="332" font-size="23" font-weight="700" fill="#f3efe6">Pandas · NumPy · Scikit-learn</text>
+  <text class="serif" x="564" y="366" font-size="21" fill="#d2ccc0">XGBoost · SHAP · Jupyter · Streamlit</text>
+
+  <!-- row 2, col 3 -->
+  <text class="mono" x="1004" y="288" font-size="15" letter-spacing="3" fill="#b5ad9c">06 · MOBILE &amp; INFRA</text>
+  <text class="serif" x="1004" y="332" font-size="23" font-weight="700" fill="#f3efe6">Capacitor · Android · Docker</text>
+  <text class="serif" x="1004" y="366" font-size="21" fill="#d2ccc0">Linux · Ubuntu · Git · GitHub Actions</text>
+
+  <!-- inverted warm paper footer bar -->
+  <rect x="0" y="406" width="1500" height="64" fill="#e2ddd3"/>
+  <text class="mono" x="90" y="444" font-size="15" letter-spacing="2.5" fill="#181714">FULL-STACK · DATA SCIENCE · MOBILE · DEVOPS</text>
+  <text class="mono" x="1410" y="444" text-anchor="end" font-size="14" letter-spacing="2.5" fill="#4a463f">BUILT FOR PRODUCTION</text>
+</svg>

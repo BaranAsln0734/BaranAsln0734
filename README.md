@@ -79,14 +79,9 @@ Production websites and digital platforms for real businesses, live and maintain
 
 ## Technology
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,vite,tailwind,nodejs,express,fastapi,postgres,sqlite,prisma,supabase&perline=14" alt="Languages, frameworks and databases">
+<p align="center">
+  <img src="./assets/panel-technology.svg" alt="Technology and Tooling — TypeScript, JavaScript, Python, SQL, React, Next.js, Vite, Tailwind CSS, Framer Motion, Node.js, Express, FastAPI, PostgreSQL, SQLite, Prisma, Supabase, Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Jupyter, Streamlit, Capacitor, Android, Docker, Linux, Ubuntu, Git, GitHub Actions" width="100%">
 </p>
-<p>
-  <img src="https://skillicons.dev/icons?i=sklearn,docker,linux,ubuntu,git,githubactions,androidstudio&perline=14" alt="Data, infrastructure and tools">
-</p>
-
-Plus `Pandas` · `NumPy` · `XGBoost` · `Jupyter` · `Streamlit` · `Capacitor` · `Framer Motion`
 
 ---
 
