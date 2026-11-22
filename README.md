@@ -10,10 +10,31 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=39D353&center=true&vCenter=true&width=900&lines=Building+software+for+real+business+workflows;Custom+ERP+%26+Vertical+SaaS+Products;Full-Stack+Engineering+%7C+Data+%26+AI;Turning+operational+problems+into+software" alt="Animated introduction"/>
 </p>
 
-<p align="center">
-  <a href="https://safedijital.com"><img src="./assets/safe-dijital-mark.svg" width="52" alt="Safe Dijital brand mark"/></a>
-  <br/><strong>SAFE DIJITAL</strong><br/><sub>Custom Software · Vertical SaaS · Business Automation</sub>
-</p>
+<table>
+  <tr>
+    <td valign="middle" width="72%">
+      <h2>Hey, I'm Baran 👋</h2>
+      <p>I'm a software developer building practical products that solve real business problems.</p>
+      <ul>
+        <li>🔭 Building custom software and vertical SaaS products at <a href="https://safedijital.com"><strong>Safe Dijital</strong></a>.</li>
+        <li>🌱 Currently exploring backend architecture, data engineering and applied AI.</li>
+        <li>🧩 Working on business systems, service workflows, quotation tools and automation.</li>
+        <li>💬 Ask me about Python, TypeScript, APIs, databases and machine learning.</li>
+        <li>⚡ I enjoy turning complex, everyday workflows into simple software.</li>
+      </ul>
+      <p><a href="https://safedijital.com"><strong>Explore Safe Dijital →</strong></a></p>
+    </td>
+    <td align="center" valign="middle" width="28%">
+      <a href="https://safedijital.com">
+        <img src="./assets/safe-dijital-mark.svg" width="150" alt="Safe Dijital logo"/>
+      </a>
+      <br/>
+      <strong>SAFE DIJITAL</strong>
+      <br/>
+      <sub>Custom Software · SaaS</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
